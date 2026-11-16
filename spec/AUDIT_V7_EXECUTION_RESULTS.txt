@@ -1,0 +1,19 @@
+VALIDATE_PACKAGE.py: PASS
+PACKAGE VALIDATION PASSED: 12 levels, 9 residential levels, 18 units, 6 categories, 18 concept materials, 3 consistent finish packages.
+IMPORTANT: This checks concept DATA and FILE PRESENCE, not whether the real website or 3D models have been built.
+VALIDATE_V3_PACKAGE.py: PASS
+V3 DATA VALIDATION PASSED: creator contact exact, one authoritative controller mode, 4 exploration modes + Lite, bilingual UI labels, V3 docs and QA cases consistent.
+NOT A WEBSITE TEST. All real-browser, Blender and device tests must be executed by Claude after implementation.
+VALIDATE_V4_PACKAGE.py: PASS
+V4 PACKAGE FIXTURE VALIDATION PASSED: four key-complete draft locales; RTL/LTR tags; silent-by-default opt-in audio; QA status NOT_RUN; V4 instructions present.
+This DOES NOT validate the actual website, sound behavior, translated meaning, native editorial review, WebGL performance, or device usability.
+VALIDATE_V5_PACKAGE.py: PASS
+V5 FIXTURE VALIDATION PASSED: four sections, 19 roadmap flags, 73 NEW QA tests, 652 TOTAL QA definitions, four translation DRAFT dictionaries and original contact/floor topology.
+NOT a built product test or certified translation review. Test actual browsers/devices and request native language proofreading before production claims.
+VALIDATE_V6_PACKAGE.py: PASS
+V6 STATIC FIXTURE CHECK PASSED: 43 intents, 91 new NOT_RUN tests, 652 total NOT_RUN test definitions, four draft locales, canonical project data preserved.
+This does NOT certify implementation, translation, model accuracy, field measurements, browser/device tests, or production readiness.
+VALIDATE_V7_PACKAGE.py: PASS
+V7 SPEC PACK CHECK PASSED: 652 defined NOT_RUN tests; 102 new cases; 7 release gates; optional provider, V6 data preserved. No site runtime tests performed.
+
+IMPORTANT: static manifest validations only, browser tests and real AI generation are NOT_RUN.

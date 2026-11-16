@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 6,
+  "project": "nakhla-residence",
+  "feature": "nakhla_contextual_property_expert",
+  "versionPriority": "V6 > V5 > V4 > V3 > V2 > V1",
+  "implementationPolicy": {
+    "localFactualResolverRequired": true,
+    "externalLLMEnabledByDefault": false,
+    "cloudStorageOfChat": false,
+    "loginRequired": false,
+    "voiceEnabledByDefault": false,
+    "mustHaveCitations": true,
+    "mustDisclaimConcept": true,
+    "neverInventMissingFacts": true,
+    "neverExposeSecrets": true,
+    "singleGlobalAssistantOverlay": true,
+    "shippingTierForFactualExpert": "P0",
+    "shippingTierForExternalLLM": "P2"
+  },
+  "ui": {
+    "mainSections": [
+      "explore",
+      "tour",
+      "design",
+      "amenities"
+    ],
+    "contextualAssistantOutsideGlobalTabs": true,
+    "assistantAvailableOn2DLite": true,
+    "defaultLocale": "ar",
+    "locales": [
+      "ar",
+      "en",
+      "ckb",
+      "zh"
+    ],
+    "mobileMode": "collapsible_bottom_sheet",
+    "audioOnHardLoad": false,
+    "maxQuickQuestionChips": 4
+  },
+  "sourceIds": [
+    "data/tower_concept.seed.json",
+    "data/navigation_manifest.seed.json",
+    "data/room_program.seed.json",
+    "data/material_catalog.seed.json",
+    "data/finish_packages.seed.json",
+    "data/v5_product_contract.seed.json",
+    "runtime_selected_object_geometry_if_validated",
+    "runtime_current_material_overrides"
+  ],
+  "contextFields": [
+    "projectId",
+    "activeSection",
+    "activeFloorId",
+    "activeUnitId",
+    "activeRoomId",
+    "selectedSurfaceId",
+    "materialOverrides",
+    "finishPackageId",
+    "explorationMode",
+    "locale"
+  ],
+  "factStatus": [
+    "verified_source",
+    "concept_estimate",
+    "demo_schema",
+    "unknown",
+    "proposal"
+  ],
+  "unknownPolicy": {
+    "dimensions_m": null,
+    "price": null,
+    "supplier": null,
+    "warranty": null,
+    "poolDepth_m": null,
+    "realAvailability": null,
+    "roomMeasurementsIfNotAuthored": null
+  },
+  "allowedActions": [
+    "selectFloor",
+    "selectUnit",
+    "focusRoom",
+    "focusSurface",
+    "openMaterialPassport",
+    "openFloorPlan",
+    "openComparison",
+    "openAmenities",
+    "navigateToAmenity",
+    "openMeasurements",
+    "openFinishEditor",
+    "previewMaterial",
+    "confirmMaterialChange",
+    "resetCamera",
+    "show2DAlternative",
+    "openCreatorContact",
+    "openPrintSummary"
+  ],
+  "forbiddenActions": [
+    "execute_code",
+    "run_shell",
+    "browse_arbitrary_url",
+    "send_email_without_consent",
+    "send_sms_without_consent",
+    "purchase",
+    "publish",
+    "write_availability",
+    "secret_read",
+    "arbitrary_script_injection"
+  ],
+  "requiresConfirmation": [
+    "confirmMaterialChange",
+    "openCreatorContact_when_contacting",
+    "submit_sales_inquiry",
+    "share_personal_information"
+  ],
+  "limits": {
+    "maxQueryCharacters": 500,
+    "maxReplyCharactersTypical": 850,
+    "maxChatItemsRetainedInMemory": 30,
+    "maxSuggestedActions": 2
+  },
+  "sourceTruth": "IDs/areas/materials/rooms from canonical project data; geometry measurements only after validated coherent 3D or approved plan",
+  "disclaimer": "All Nakhla Residence inventory is fictional concept demo. No dimensions, permits, prices, suppliers or certifications are implied unless authoritatively verified."
+}

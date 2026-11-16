@@ -1,0 +1,909 @@
+{
+  "generatedBy": "tests/unit/export-artifacts.test.ts",
+  "note": "CONCEPT • NOT BUILT. Areas are measured from the authored plan polygons of the concept model; not surveyed, not as-built, not professionally verified.",
+  "summary": {
+    "floors": 12,
+    "units": 18,
+    "typeANetSqm": 124.86,
+    "typeBNetSqm": 145.02,
+    "typeABalconySqm": 16.64,
+    "typeBBalconySqm": 20.48,
+    "plateSqm": 432,
+    "towerTopM": 44.65,
+    "ledgerRows": 89,
+    "status": "CONCEPT • NOT BUILT • not professionally verified"
+  },
+  "errors": [],
+  "ledger": [
+    {
+      "semanticId": "ground:zone.lobby_hall",
+      "kind": "reception",
+      "areaSqm": 91.64,
+      "widthM": 11.6,
+      "depthM": 7.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:zone.security",
+      "kind": "security",
+      "areaSqm": 10.29,
+      "widthM": 2.78,
+      "depthM": 3.7,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:zone.management",
+      "kind": "management",
+      "areaSqm": 11.34,
+      "widthM": 2.78,
+      "depthM": 4.08,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:zone.mail",
+      "kind": "mail",
+      "areaSqm": 10.29,
+      "widthM": 2.78,
+      "depthM": 3.7,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:zone.back_office",
+      "kind": "service",
+      "areaSqm": 11.34,
+      "widthM": 2.78,
+      "depthM": 4.08,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:zone.plant",
+      "kind": "plant",
+      "areaSqm": 79.05,
+      "widthM": 8.5,
+      "depthM": 9.3,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:zone.loading",
+      "kind": "service",
+      "areaSqm": 81.65,
+      "widthM": 8.78,
+      "depthM": 9.3,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.stair_w",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.stair_e",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.lobby",
+      "kind": "lobby",
+      "areaSqm": 31.15,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.lift_1",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.lift_2",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.lift_service",
+      "kind": "lift",
+      "areaSqm": 4.75,
+      "widthM": 2.18,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.riser_e",
+      "kind": "service",
+      "areaSqm": 3.84,
+      "widthM": 1.76,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.refuse",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.electrical",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.riser_w",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "ground:core.store",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.living",
+      "kind": "living",
+      "areaSqm": 28.7,
+      "widthM": 7,
+      "depthM": 4.1,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.kitchen",
+      "kind": "kitchen",
+      "areaSqm": 21.46,
+      "widthM": 5.96,
+      "depthM": 3.6,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.master",
+      "kind": "master",
+      "areaSqm": 17.22,
+      "widthM": 4.2,
+      "depthM": 4.1,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.bathroom",
+      "kind": "bathroom",
+      "areaSqm": 4.8,
+      "widthM": 1.86,
+      "depthM": 2.58,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.balcony",
+      "kind": "balcony",
+      "areaSqm": 16.64,
+      "widthM": 6.4,
+      "depthM": 2.6,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.second_bedroom",
+      "kind": "second_bedroom",
+      "areaSqm": 16.64,
+      "widthM": 3.98,
+      "depthM": 4.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.master_bath",
+      "kind": "master_bath",
+      "areaSqm": 7.91,
+      "widthM": 2.15,
+      "depthM": 3.68,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.dressing",
+      "kind": "dressing",
+      "areaSqm": 7.1,
+      "widthM": 1.93,
+      "depthM": 3.68,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.laundry",
+      "kind": "laundry",
+      "areaSqm": 2.26,
+      "widthM": 1.2,
+      "depthM": 1.88,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.entry",
+      "kind": "entry",
+      "areaSqm": 3.38,
+      "widthM": 1.8,
+      "depthM": 1.88,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.hall",
+      "kind": "hall",
+      "areaSqm": 7.07,
+      "widthM": 3.76,
+      "depthM": 1.88,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:A.hall_e",
+      "kind": "hall",
+      "areaSqm": 2.75,
+      "widthM": 1.86,
+      "depthM": 1.48,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.living",
+      "kind": "living",
+      "areaSqm": 28.7,
+      "widthM": 7,
+      "depthM": 4.1,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.kitchen",
+      "kind": "kitchen",
+      "areaSqm": 19.91,
+      "widthM": 5.38,
+      "depthM": 3.7,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.master",
+      "kind": "master",
+      "areaSqm": 19.12,
+      "widthM": 4.78,
+      "depthM": 4,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.bathroom",
+      "kind": "bathroom",
+      "areaSqm": 4.77,
+      "widthM": 1.78,
+      "depthM": 2.68,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.balcony",
+      "kind": "balcony",
+      "areaSqm": 20.48,
+      "widthM": 6.4,
+      "depthM": 3.2,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.second_bedroom",
+      "kind": "second_bedroom",
+      "areaSqm": 20.44,
+      "widthM": 5.38,
+      "depthM": 3.8,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.third_bedroom",
+      "kind": "third_bedroom",
+      "areaSqm": 12.81,
+      "widthM": 4.78,
+      "depthM": 2.68,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.master_bath",
+      "kind": "master_bath",
+      "areaSqm": 5.24,
+      "widthM": 2.2,
+      "depthM": 2.38,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.dressing",
+      "kind": "dressing",
+      "areaSqm": 5.85,
+      "widthM": 2.46,
+      "depthM": 2.38,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.laundry",
+      "kind": "laundry",
+      "areaSqm": 8.39,
+      "widthM": 5.38,
+      "depthM": 1.56,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.entry",
+      "kind": "entry",
+      "areaSqm": 4.82,
+      "widthM": 1.8,
+      "depthM": 2.68,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:B.hall",
+      "kind": "hall",
+      "areaSqm": 8.52,
+      "widthM": 3.18,
+      "depthM": 2.68,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.stair_w",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.stair_e",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.lobby",
+      "kind": "lobby",
+      "areaSqm": 31.15,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.lift_1",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.lift_2",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.lift_service",
+      "kind": "lift",
+      "areaSqm": 4.75,
+      "widthM": 2.18,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.riser_e",
+      "kind": "service",
+      "areaSqm": 3.84,
+      "widthM": 1.76,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.refuse",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.electrical",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.riser_w",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "residential:core.store",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:zone.gym",
+      "kind": "gym",
+      "areaSqm": 75.84,
+      "widthM": 9.6,
+      "depthM": 7.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:zone.wellness-lounge",
+      "kind": "wellness-lounge",
+      "areaSqm": 27.65,
+      "widthM": 7.68,
+      "depthM": 3.6,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:zone.changing",
+      "kind": "changing",
+      "areaSqm": 14.96,
+      "widthM": 3.58,
+      "depthM": 4.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:zone.spa",
+      "kind": "spa",
+      "areaSqm": 16.64,
+      "widthM": 3.98,
+      "depthM": 4.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:zone.pool",
+      "kind": "pool",
+      "areaSqm": 161.82,
+      "widthM": 17.4,
+      "depthM": 9.3,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.stair_w",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.stair_e",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.lobby",
+      "kind": "lobby",
+      "areaSqm": 31.15,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.lift_1",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.lift_2",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.lift_service",
+      "kind": "lift",
+      "areaSqm": 4.75,
+      "widthM": 2.18,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.riser_e",
+      "kind": "service",
+      "areaSqm": 3.84,
+      "widthM": 1.76,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.refuse",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.electrical",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.riser_w",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "wellness:core.store",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:zone.restaurant",
+      "kind": "restaurant",
+      "areaSqm": 88.48,
+      "widthM": 11.2,
+      "depthM": 7.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:zone.cafe",
+      "kind": "cafe",
+      "areaSqm": 48.03,
+      "widthM": 6.08,
+      "depthM": 7.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:zone.kitchen",
+      "kind": "kitchen-commercial",
+      "areaSqm": 42.33,
+      "widthM": 8.3,
+      "depthM": 5.1,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:zone.terrace",
+      "kind": "terrace",
+      "areaSqm": 87.36,
+      "widthM": 9.1,
+      "depthM": 9.6,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:zone.shisha-conditional",
+      "kind": "shisha-conditional",
+      "areaSqm": 36.12,
+      "widthM": 8.6,
+      "depthM": 4.2,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.stair_w",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.stair_e",
+      "kind": "stair",
+      "areaSqm": 15.44,
+      "widthM": 2.7,
+      "depthM": 5.72,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.lobby",
+      "kind": "lobby",
+      "areaSqm": 31.15,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.lift_1",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.lift_2",
+      "kind": "lift",
+      "areaSqm": 4.29,
+      "widthM": 1.97,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.lift_service",
+      "kind": "lift",
+      "areaSqm": 4.75,
+      "widthM": 2.18,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.riser_e",
+      "kind": "service",
+      "areaSqm": 3.84,
+      "widthM": 1.76,
+      "depthM": 2.18,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.refuse",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.electrical",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.riser_w",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "dining:core.store",
+      "kind": "service",
+      "areaSqm": 3.74,
+      "widthM": 1.97,
+      "depthM": 1.9,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "TYPE_A:net_internal",
+      "kind": "unit_net_internal",
+      "areaSqm": 124.86,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "TYPE_A:balcony",
+      "kind": "unit_balcony",
+      "areaSqm": 16.64,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "TYPE_B:net_internal",
+      "kind": "unit_net_internal",
+      "areaSqm": 145.02,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    },
+    {
+      "semanticId": "TYPE_B:balcony",
+      "kind": "unit_balcony",
+      "areaSqm": 20.48,
+      "widthM": null,
+      "depthM": null,
+      "source": "authored_plan_polygons",
+      "status": "concept_model_measured",
+      "professionallyVerified": false
+    }
+  ]
+}

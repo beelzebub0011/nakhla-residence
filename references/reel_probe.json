@@ -1,0 +1,44 @@
+[
+ {
+  "id": "REF01",
+  "url": "https://www.instagram.com/reel/DfhMrbfRHII/",
+  "accessible": false,
+  "error": "TimeoutError: page.waitForSelector: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video') to be visible\u001b[22m\n"
+ },
+ {
+  "id": "REF02",
+  "url": "https://www.instagram.com/reel/DfC25-KtwRq/",
+  "accessible": false,
+  "error": "TimeoutError: page.waitForSelector: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video') to be visible\u001b[22m\n"
+ },
+ {
+  "id": "REF03",
+  "url": "https://www.instagram.com/reel/DfnzK78z4Su/",
+  "accessible": false,
+  "error": "TimeoutError: page.waitForSelector: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video') to be visible\u001b[22m\n"
+ },
+ {
+  "id": "REF04",
+  "url": "https://www.instagram.com/reel/DfEZ6FJh5vK/",
+  "accessible": false,
+  "error": "TimeoutError: page.waitForSelector: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video') to be visible\u001b[22m\n"
+ },
+ {
+  "id": "REF05",
+  "url": "https://www.instagram.com/reel/DfVuYdwocul/",
+  "accessible": false,
+  "error": "TimeoutError: page.waitForSelector: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video') to be visible\u001b[22m\n"
+ },
+ {
+  "id": "REF06",
+  "url": "https://www.instagram.com/reel/DfhqbXuJItz/",
+  "accessible": false,
+  "error": "TimeoutError: page.waitForSelector: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video') to be visible\u001b[22m\n"
+ },
+ {
+  "id": "REF07",
+  "url": "https://www.instagram.com/reel/DfHFGsLlSo6/",
+  "accessible": false,
+  "error": "TimeoutError: page.waitForSelector: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video') to be visible\u001b[22m\n"
+ }
+]

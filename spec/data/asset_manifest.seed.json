@@ -1,0 +1,65 @@
+{
+  "note": "PLANNED ARTIFACTS ONLY; paths below do not exist until Claude actually produces them. Do not report these as existing files.",
+  "assets": [
+    {
+      "id": "hero-tower-day",
+      "planned": "public/assets/renders/tower_day.webp",
+      "type": "render",
+      "min_visual_quality": "portfolio hero"
+    },
+    {
+      "id": "hero-tower-night",
+      "planned": "public/assets/renders/tower_night.webp",
+      "type": "render",
+      "min_visual_quality": "portfolio hero"
+    },
+    {
+      "id": "tower-model",
+      "planned": "public/assets/models/tower_lod1.glb",
+      "type": "glb",
+      "min_visual_quality": "real selectable floor geometry"
+    },
+    {
+      "id": "type-a-dollhouse",
+      "planned": "public/assets/models/type_a_dollhouse.glb",
+      "type": "glb",
+      "min_visual_quality": "furnished and spatially coherent"
+    },
+    {
+      "id": "type-b-dollhouse",
+      "planned": "public/assets/models/type_b_dollhouse.glb",
+      "type": "glb",
+      "min_visual_quality": "distinct unit geometry"
+    },
+    {
+      "id": "living-interior",
+      "planned": "public/assets/models/type_a_living.glb",
+      "type": "glb",
+      "min_visual_quality": "true changeable PBR materials"
+    },
+    {
+      "id": "wellness",
+      "planned": "public/assets/models/wellness_l10.glb",
+      "type": "glb",
+      "min_visual_quality": "pool and gym scene"
+    },
+    {
+      "id": "sky-dining",
+      "planned": "public/assets/models/sky_dining_l11.glb",
+      "type": "glb",
+      "min_visual_quality": "restaurant cafe and separate conditional terrace"
+    },
+    {
+      "id": "floor-plan-a",
+      "planned": "public/assets/plans/type_a.svg",
+      "type": "svg",
+      "min_visual_quality": "consistent with 3D"
+    },
+    {
+      "id": "floor-plan-b",
+      "planned": "public/assets/plans/type_b.svg",
+      "type": "svg",
+      "min_visual_quality": "consistent with 3D"
+    }
+  ]
+}

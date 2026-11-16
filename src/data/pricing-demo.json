@@ -1,0 +1,13 @@
+{
+  "$comment": "NAKHLA RESIDENCE — DEMO / ILLUSTRATIVE PRICES ONLY. The project is a fictional concept and is not for sale. Edit the numbers here; every price in both experiences, the comparison, the printed summary and the assistant is computed from this file. Method and sources: project_artifacts/pricing/MARKET_ANCHORING.md",
+  "version": "demo-2026-11-14",
+  "stampDate": "2026-11-14",
+  "currency": "IQD",
+  "usd": { "iqdPerUsd": 1500, "hypothetical": true },
+  "base": { "ratePerSqm": 1850000, "balconyWeight": 0.5, "roundTo": 1000000 },
+  "typeFactor": { "TYPE_A": 1.0, "TYPE_B": 0.97 },
+  "sideFactor": { "A": 1.0, "B": 0.99 },
+  "floorPremiumPerLevel": 0.01,
+  "finishPerSqm": { "standard": 0, "premium": 130000, "luxury": 290000 },
+  "budgetSteps": [250000000, 265000000, 280000000, 300000000, 330000000]
+}

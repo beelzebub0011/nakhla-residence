@@ -1,0 +1,11 @@
+{
+  "total": 732,
+  "byStatus": {
+    "NOT_RUN": 699,
+    "PASS": 30,
+    "SKIPPED": 3
+  },
+  "p0NotRun": 268,
+  "scopeOfPass": "Automated, Chrome headless with GPU on one Windows 11 desktop (RTX 3050). No physical phone/tablet, Safari, Firefox, screen reader or human comfort session was run.",
+  "releaseDecision": "NOT READY for public release: P0 definitions remain NOT_RUN."
+}

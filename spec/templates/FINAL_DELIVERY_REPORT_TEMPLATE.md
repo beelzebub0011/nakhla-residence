@@ -1,0 +1,18 @@
+# Nakhla Residence — Delivery report
+
+Project URL/local command: [verified actual result]
+Scope implemented: [working states with links/captures]
+12-level structure and data consistency: [tested]
+3D original assets: [links paths/asset manifest]
+Material categories and live slots: [list and demo]
+Wellness and restaurant/terrace: [working scenes and caveats]
+RTL/English + mobile/desktop + fallback: [screenshots tests]
+Automated tests: [commands, pass counts; no invented runs]
+Performance: [measured browser/device, not aspirational]
+Licenses and references: [provenance]
+Research artifacts/decisions: [paths]
+Known shortcomings: [specific]
+How to run / render / edit assets: [commands]
+Next optional commercial features: [prioritized]
+Claims that require architect/engineer/local authority review: [explicit]
+Any blocking actions needing user approval: [only genuinely necessary]

@@ -1,0 +1,273 @@
+{
+  "generatedBy": "blender/build_nakhla.py",
+  "blender": "5.2.3 LTS",
+  "note": "Offline Cycles renders of the same concept geometry, furniture meshes and textures as the interactive model (standard finish package). Physical sky + sun from the simulated solar position; AgX view transform. Not photographs.",
+  "items": [
+    {
+      "file": "exterior_day.jpg",
+      "title": {
+        "en": "Tower — afternoon",
+        "ar": "البرج — عصراً",
+        "ckb": "تاوەر — پاشنیوەڕۆ",
+        "zh": "塔楼 — 下午"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 960,
+      "exposureStops": -6.43,
+      "samples": 200
+    },
+    {
+      "file": "exterior_golden.jpg",
+      "title": {
+        "en": "Tower — golden hour",
+        "ar": "البرج — الساعة الذهبية",
+        "ckb": "تاوەر — کاتژمێری زێڕین",
+        "zh": "塔楼 — 黄金时刻"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1080,
+      "exposureStops": -3.95,
+      "samples": 200
+    },
+    {
+      "file": "exterior_night.jpg",
+      "title": {
+        "en": "Tower — night",
+        "ar": "البرج — ليلاً",
+        "ckb": "تاوەر — شەو",
+        "zh": "塔楼 — 夜晚"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1260,
+      "exposureStops": 0.64,
+      "samples": 200
+    },
+    {
+      "file": "living.jpg",
+      "title": {
+        "en": "Type A — living & dining",
+        "ar": "نموذج A — المعيشة والطعام",
+        "ckb": "جۆری A — دانیشتن و نانخواردن",
+        "zh": "A 户型 — 客厅与餐厅"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": -2.51,
+      "samples": 200
+    },
+    {
+      "file": "kitchen.jpg",
+      "title": {
+        "en": "Type A — kitchen",
+        "ar": "نموذج A — المطبخ",
+        "ckb": "جۆری A — چێشتخانە",
+        "zh": "A 户型 — 厨房"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": -3.28,
+      "samples": 200
+    },
+    {
+      "file": "master.jpg",
+      "title": {
+        "en": "Type A — master bedroom",
+        "ar": "نموذج A — غرفة النوم الرئيسية",
+        "ckb": "جۆری A — ژووری نووستنی سەرەکی",
+        "zh": "A 户型 — 主卧室"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 960,
+      "exposureStops": -2.61,
+      "samples": 200
+    },
+    {
+      "file": "bathroom.jpg",
+      "title": {
+        "en": "Type A — bathroom",
+        "ar": "نموذج A — الحمّام",
+        "ckb": "جۆری A — گەرماو",
+        "zh": "A 户型 — 浴室"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": -1.62,
+      "samples": 200
+    },
+    {
+      "file": "balcony.jpg",
+      "title": {
+        "en": "Type A — balcony",
+        "ar": "نموذج A — البلكونة",
+        "ckb": "جۆری A — باڵکۆن",
+        "zh": "A 户型 — 阳台"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1000,
+      "exposureStops": -2.88,
+      "samples": 200
+    },
+    {
+      "file": "living_golden.jpg",
+      "title": {
+        "en": "Type A — living, golden hour",
+        "ar": "نموذج A — المعيشة، الساعة الذهبية",
+        "ckb": "جۆری A — دانیشتن، کاتژمێری زێڕین",
+        "zh": "A 户型 — 客厅 · 黄金时刻"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1110,
+      "exposureStops": -0.81,
+      "samples": 200
+    },
+    {
+      "file": "living_evening.jpg",
+      "title": {
+        "en": "Type A — living, evening",
+        "ar": "نموذج A — المعيشة، المساء",
+        "ckb": "جۆری A — دانیشتن، ئێوارە",
+        "zh": "A 户型 — 客厅 · 傍晚"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1170,
+      "exposureStops": -0.75,
+      "samples": 200
+    },
+    {
+      "file": "living_night.jpg",
+      "title": {
+        "en": "Type A — living, night",
+        "ar": "نموذج A — المعيشة، ليلاً",
+        "ckb": "جۆری A — دانیشتن، شەو",
+        "zh": "A 户型 — 客厅 · 夜晚"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1320,
+      "exposureStops": -0.75,
+      "samples": 200
+    },
+    {
+      "file": "B_living.jpg",
+      "title": {
+        "en": "Type B — living & dining",
+        "ar": "نموذج B — المعيشة والطعام",
+        "ckb": "جۆری B — دانیشتن و نانخواردن",
+        "zh": "B 户型 — 客厅与餐厅"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": -2.73,
+      "samples": 200
+    },
+    {
+      "file": "lobby.jpg",
+      "title": {
+        "en": "Ground floor — lobby & reception",
+        "ar": "الطابق الأرضي — الردهة والاستقبال",
+        "ckb": "نهۆمی زەوی — هۆڵ و پێشوازی",
+        "zh": "首层 — 大堂与接待"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": -2.84,
+      "samples": 200
+    },
+    {
+      "file": "cafe.jpg",
+      "title": {
+        "en": "Level 11 — café",
+        "ar": "الطابق ١١ — المقهى",
+        "ckb": "نهۆمی ١١ — کافێ",
+        "zh": "11 层 — 咖啡厅"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1080,
+      "exposureStops": -3.48,
+      "samples": 200
+    },
+    {
+      "file": "spa.jpg",
+      "title": {
+        "en": "Level 10 — spa & sauna",
+        "ar": "الطابق ١٠ — السبا والساونا",
+        "ckb": "نهۆمی ١٠ — سپا و ساونا",
+        "zh": "10 层 — 水疗与桑拿"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": 0.06,
+      "samples": 200
+    },
+    {
+      "file": "pool.jpg",
+      "title": {
+        "en": "Level 10 — indoor pool",
+        "ar": "الطابق ١٠ — المسبح الداخلي",
+        "ckb": "نهۆمی ١٠ — مەلەوانگەی ناوەکی",
+        "zh": "10 层 — 室内泳池"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": -3.8,
+      "samples": 200
+    },
+    {
+      "file": "gym.jpg",
+      "title": {
+        "en": "Level 10 — gym",
+        "ar": "الطابق ١٠ — النادي الرياضي",
+        "ckb": "نهۆمی ١٠ — هۆڵی وەرزش",
+        "zh": "10 层 — 健身房"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 900,
+      "exposureStops": -2.94,
+      "samples": 200
+    },
+    {
+      "file": "restaurant.jpg",
+      "title": {
+        "en": "Level 11 — restaurant",
+        "ar": "الطابق ١١ — المطعم",
+        "ckb": "نهۆمی ١١ — ڕێستۆرانت",
+        "zh": "11 层 — 餐厅"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1020,
+      "exposureStops": -3.85,
+      "samples": 200
+    },
+    {
+      "file": "terrace.jpg",
+      "title": {
+        "en": "Level 11 — panoramic terrace",
+        "ar": "الطابق ١١ — التراس البانورامي",
+        "ckb": "نهۆمی ١١ — تێراسی پانۆرامی",
+        "zh": "11 层 — 全景露台"
+      },
+      "scope": "derived_from_actual_scene",
+      "package": "standard",
+      "timeMinutes": 1050,
+      "exposureStops": -3.1,
+      "samples": 200
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 7,
+  "service": "Higgsfield",
+  "promotionResearchDate": "2026-11-11",
+  "offerStatus": "ANNOUNCED_NOT_USER_VERIFIED",
+  "offerScope": "new user conditional 72h promotion; verify actual MCP/CLI billing; possible paid auto-renew after 72h",
+  "optional": true,
+  "claimedDurationHours": 72,
+  "newUsersOnlyReported": true,
+  "autoRenewRisk": true,
+  "chargeOrNewSubscriptionAllowedWithoutOwnerApproval": false,
+  "globalInstallRequiresOwnerApproval": true,
+  "enableByDefault": false,
+  "mcpUrl": "https://mcp.higgsfield.ai/mcp",
+  "cliProviderPackage": "@higgsfield/cli",
+  "skillsRepo": "higgsfield-ai/skills",
+  "allowRoles": [
+    "concept_styleframes",
+    "optional_licensed_cinematic_broll",
+    "marketing_teaser",
+    "materials_visual_reference",
+    "creative_preproduction"
+  ],
+  "forbidRoles": [
+    "authoritative_measured_geometry",
+    "true_dimensions",
+    "room_collision_mesh",
+    "verified_balcony_view",
+    "real_time_scene_renderer",
+    "public_visitor_runtime_dependency",
+    "unlicensed_redistribution",
+    "actual_floorplan_from_ai_pictures"
+  ],
+  "accountVerificationRequired": [
+    "eligibility",
+    "predicted_current_generation_cost",
+    "MCP_vs_CLI_entitlement",
+    "billing_auto_renew_details",
+    "trial_expiry",
+    "commercial_rights",
+    "user_approval"
+  ],
+  "fallback": "Deterministic original Blender, approved CC0 assets, Three.js website stays fully functional even without Higgsfield"
+}

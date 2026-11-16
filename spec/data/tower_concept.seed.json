@@ -1,0 +1,403 @@
+{
+  "notice": "FICTIONAL DEMONSTRATION; NOT ENGINEER-VERIFIED OR FOR SALE",
+  "project": {
+    "id": "nakhla-residence",
+    "name_ar": "نخلة ريزيدنس",
+    "name_en": "NAKHLA RESIDENCE",
+    "location_ar": "البصرة — موقع افتراضي",
+    "location_en": "Basra — fictional location",
+    "architectural_theme": "Modern Iraqi Luxury",
+    "levels_total_including_ground": 12,
+    "residential_levels": 9,
+    "residential_units_total": 18,
+    "uses_real_property_data": false
+  },
+  "siteHypothesis": {
+    "frontage_m": 24,
+    "depth_m": 32,
+    "site_area_sqm": 768,
+    "building_footprint_width_m": 18,
+    "building_footprint_depth_m": 24,
+    "building_footprint_sqm": 432,
+    "is_approved_or_code_compliant": false,
+    "warning": "Reconcile site setbacks, facilities and rules before real-world use"
+  },
+  "floors": [
+    {
+      "id": "G",
+      "number": 0,
+      "label_ar": "الأرضي",
+      "label_en": "Ground",
+      "category": "ground",
+      "floor_to_floor_height_m": 4.6,
+      "is_architecturally_verified": false,
+      "unitIds": [],
+      "zoneIds": [
+        "lobby",
+        "reception",
+        "security",
+        "services"
+      ],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F01",
+      "number": 1,
+      "label_ar": "الطابق 01",
+      "label_en": "Floor 01",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U01A",
+        "U01B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F02",
+      "number": 2,
+      "label_ar": "الطابق 02",
+      "label_en": "Floor 02",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U02A",
+        "U02B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F03",
+      "number": 3,
+      "label_ar": "الطابق 03",
+      "label_en": "Floor 03",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U03A",
+        "U03B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F04",
+      "number": 4,
+      "label_ar": "الطابق 04",
+      "label_en": "Floor 04",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U04A",
+        "U04B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F05",
+      "number": 5,
+      "label_ar": "الطابق 05",
+      "label_en": "Floor 05",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U05A",
+        "U05B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F06",
+      "number": 6,
+      "label_ar": "الطابق 06",
+      "label_en": "Floor 06",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U06A",
+        "U06B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F07",
+      "number": 7,
+      "label_ar": "الطابق 07",
+      "label_en": "Floor 07",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U07A",
+        "U07B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F08",
+      "number": 8,
+      "label_ar": "الطابق 08",
+      "label_en": "Floor 08",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U08A",
+        "U08B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F09",
+      "number": 9,
+      "label_ar": "الطابق 09",
+      "label_en": "Floor 09",
+      "category": "residential",
+      "floor_to_floor_height_m": 3.4,
+      "is_architecturally_verified": false,
+      "unitIds": [
+        "U09A",
+        "U09B"
+      ],
+      "zoneIds": [],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F10",
+      "number": 10,
+      "label_ar": "الطابق 10",
+      "label_en": "Floor 10",
+      "category": "wellness",
+      "floor_to_floor_height_m": 4.8,
+      "is_architecturally_verified": false,
+      "unitIds": [],
+      "zoneIds": [
+        "gym",
+        "pool",
+        "spa",
+        "changing",
+        "wellness-lounge"
+      ],
+      "note": "Concept fictional level; height subject to design validation"
+    },
+    {
+      "id": "F11",
+      "number": 11,
+      "label_ar": "الطابق 11",
+      "label_en": "Floor 11",
+      "category": "dining",
+      "floor_to_floor_height_m": 4.2,
+      "is_architecturally_verified": false,
+      "unitIds": [],
+      "zoneIds": [
+        "restaurant",
+        "cafe",
+        "kitchen",
+        "terrace",
+        "shisha-conditional"
+      ],
+      "note": "Concept fictional level; height subject to design validation"
+    }
+  ],
+  "unitTypes": [
+    {
+      "id": "TYPE_A",
+      "name": "Type A",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "approx_area_sqm": 125,
+      "area_basis": "concept_unknown",
+      "description_ar": "شقة غرفتي نوم، غرفة معيشة، مطبخ، حمامان وبلكونة",
+      "description_en": "Concept 2-bedroom apartment with living area, kitchen, two baths and balcony",
+      "hero_unit": true
+    },
+    {
+      "id": "TYPE_B",
+      "name": "Type B",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "approx_area_sqm": 145,
+      "area_basis": "concept_unknown",
+      "description_ar": "شقة ثلاث غرف نوم، معيشة، مطبخ، حمامان وبلكونة",
+      "description_en": "Concept 3-bedroom apartment with living area, kitchen, two baths and balcony",
+      "hero_unit": false
+    }
+  ],
+  "units": [
+    {
+      "id": "U01A",
+      "floorId": "F01",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 01A",
+      "name_en": "Unit 01A"
+    },
+    {
+      "id": "U01B",
+      "floorId": "F01",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 01B",
+      "name_en": "Unit 01B"
+    },
+    {
+      "id": "U02A",
+      "floorId": "F02",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 02A",
+      "name_en": "Unit 02A"
+    },
+    {
+      "id": "U02B",
+      "floorId": "F02",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 02B",
+      "name_en": "Unit 02B"
+    },
+    {
+      "id": "U03A",
+      "floorId": "F03",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 03A",
+      "name_en": "Unit 03A"
+    },
+    {
+      "id": "U03B",
+      "floorId": "F03",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 03B",
+      "name_en": "Unit 03B"
+    },
+    {
+      "id": "U04A",
+      "floorId": "F04",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 04A",
+      "name_en": "Unit 04A"
+    },
+    {
+      "id": "U04B",
+      "floorId": "F04",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 04B",
+      "name_en": "Unit 04B"
+    },
+    {
+      "id": "U05A",
+      "floorId": "F05",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 05A",
+      "name_en": "Unit 05A"
+    },
+    {
+      "id": "U05B",
+      "floorId": "F05",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 05B",
+      "name_en": "Unit 05B"
+    },
+    {
+      "id": "U06A",
+      "floorId": "F06",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 06A",
+      "name_en": "Unit 06A"
+    },
+    {
+      "id": "U06B",
+      "floorId": "F06",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 06B",
+      "name_en": "Unit 06B"
+    },
+    {
+      "id": "U07A",
+      "floorId": "F07",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 07A",
+      "name_en": "Unit 07A"
+    },
+    {
+      "id": "U07B",
+      "floorId": "F07",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 07B",
+      "name_en": "Unit 07B"
+    },
+    {
+      "id": "U08A",
+      "floorId": "F08",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 08A",
+      "name_en": "Unit 08A"
+    },
+    {
+      "id": "U08B",
+      "floorId": "F08",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 08B",
+      "name_en": "Unit 08B"
+    },
+    {
+      "id": "U09A",
+      "floorId": "F09",
+      "typeId": "TYPE_A",
+      "reference_geometry": "TYPICAL_A",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 09A",
+      "name_en": "Unit 09A"
+    },
+    {
+      "id": "U09B",
+      "floorId": "F09",
+      "typeId": "TYPE_B",
+      "reference_geometry": "TYPICAL_B",
+      "display_status": "DEMO_ONLY_NOT_FOR_SALE",
+      "name_ar": "الشقة 09B",
+      "name_en": "Unit 09B"
+    }
+  ]
+}

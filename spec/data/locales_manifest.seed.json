@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 4,
+  "defaultLocale": "ar",
+  "firstVisitAlwaysArabic": true,
+  "supported": [
+    {
+      "key": "ar",
+      "bcp47": "ar-IQ",
+      "htmlLang": "ar-IQ",
+      "dir": "rtl",
+      "nativeName": "العربية",
+      "englishName": "Arabic (Iraq)",
+      "primary": true,
+      "reviewStatus": "DRAFT_UNVERIFIED"
+    },
+    {
+      "key": "en",
+      "bcp47": "en",
+      "htmlLang": "en",
+      "dir": "ltr",
+      "nativeName": "English",
+      "englishName": "English",
+      "primary": false,
+      "reviewStatus": "DRAFT_UNVERIFIED"
+    },
+    {
+      "key": "ckb",
+      "bcp47": "ckb-IQ",
+      "htmlLang": "ckb-IQ",
+      "dir": "rtl",
+      "nativeName": "کوردی (سۆرانی)",
+      "englishName": "Central Kurdish / Sorani",
+      "primary": false,
+      "reviewStatus": "DRAFT_UNVERIFIED"
+    },
+    {
+      "key": "zh",
+      "bcp47": "zh-Hans",
+      "htmlLang": "zh-Hans",
+      "dir": "ltr",
+      "nativeName": "简体中文",
+      "englishName": "Chinese, Simplified",
+      "primary": false,
+      "reviewStatus": "DRAFT_UNVERIFIED"
+    }
+  ],
+  "urlPrefix": {
+    "ar": "/ar",
+    "en": "/en",
+    "ckb": "/ckb",
+    "zh": "/zh"
+  },
+  "fallback": "ar",
+  "localeChangeMustPreserve": [
+    "activeFloorId",
+    "activeUnitId",
+    "activeRoomId",
+    "materialOverrides",
+    "explorationMode",
+    "cameraBookmarkByMode",
+    "weatherId",
+    "seasonId",
+    "timeMinutes",
+    "audio.muted"
+  ],
+  "noSilentFallbackForProduction": true,
+  "noFlagsInPicker": true,
+  "reviewRule": "Do not claim verified translation until documented competent native review of four locales."
+}

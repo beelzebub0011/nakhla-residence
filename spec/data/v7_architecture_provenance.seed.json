@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "projectId": "nakhla-residence",
+  "coordSystem": {
+    "distanceUnit": "meter",
+    "coordinateOrigin": "TO_BE_AUTHORED",
+    "axisConvention": "TO_BE_DOCUMENTED"
+  },
+  "factsAllowedOnlyFrom": [
+    "approved_canonical_geometry",
+    "traceable_CAD_or_BIM",
+    "approved_owner_supplied_specs",
+    "existing_concept_data_clearly_marked"
+  ],
+  "conceptDefaults": {
+    "floorCountTotal": 12,
+    "residentialLevels": 9,
+    "unitCount": 18,
+    "floor10": "wellness",
+    "floor11": "dining",
+    "roomDimensionsMeters": null,
+    "verifiedOutdoorView": null,
+    "approvedStructuralPoolLoad": null
+  },
+  "geometryAuditFields": [
+    "floor_id",
+    "unit_id",
+    "room_id",
+    "surface_id",
+    "mesh_node_id",
+    "source_file",
+    "transform",
+    "polygon_area_sqm",
+    "bounds_m",
+    "verified_by",
+    "verification_status"
+  ],
+  "roomFactsRequireGeometryAudit": true,
+  "unverifiedNeverExact": true,
+  "aiRenderIsNotBlueprint": true,
+  "marketingStillsMustHaveAssetProvenance": true
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 4,
+  "masterEnabled": false,
+  "muted": true,
+  "userOptedInThisPageLoad": false,
+  "newPageLoadAlwaysResetsAudioToMuted": true,
+  "doNotPersistOptIn": true,
+  "allowOnExplicitAudioControlOnly": true,
+  "neverAutoplayAudible": true,
+  "delayAudioAssetFetchUntilOptIn": true,
+  "persistAcrossSPARouteWhenOptedIn": true,
+  "pauseWhenTabHidden": true,
+  "reactivationAfterVisibilityNeedsGesture": true,
+  "channels": {
+    "music": {
+      "enabled": false,
+      "volumeOnOptIn": 0.12
+    },
+    "ambience": {
+      "enabled": false,
+      "volumeOnOptIn": 0.2
+    },
+    "effects": {
+      "enabled": false,
+      "volumeOnOptIn": 0.28
+    },
+    "narration": {
+      "enabled": false,
+      "volumeOnOptIn": 0.5
+    }
+  },
+  "globalQuickMuteAccessibility": true,
+  "requiresAccessibleCaptionsForNarration": true,
+  "masterControlIsOnlySourceOfTruth": true,
+  "oldAmbientSoundEnabledDeprecated": true
+}

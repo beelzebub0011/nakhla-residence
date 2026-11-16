@@ -1,0 +1,29 @@
+{
+  "times": [
+    {
+      "dir": "to-photo",
+      "ms": 503
+    },
+    {
+      "dir": "to-3d (engine ready)",
+      "ms": 7595
+    },
+    {
+      "dir": "to-photo",
+      "ms": 89
+    },
+    {
+      "dir": "to-3d (engine ready)",
+      "ms": 7675
+    },
+    {
+      "dir": "to-photo",
+      "ms": 105
+    },
+    {
+      "dir": "to-3d (engine ready)",
+      "ms": 7090
+    }
+  ],
+  "note": "wall-clock incl. Playwright overhead; to-3d includes a full engine start (the 3D context is released while the photo site is open)"
+}

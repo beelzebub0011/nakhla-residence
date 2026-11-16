@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 3,
+  "guidance": "Conceptual starting palette: Claude must research/test accessible and visually coherent final token choices.",
+  "colors": {
+    "canvas": "#FAF7F1",
+    "ink": "#222321",
+    "muted": "#66665F",
+    "bronze": "#9D8060",
+    "dark": "#131716",
+    "warmStone": "#EBE2D2",
+    "focus": "#2961B5",
+    "error": "#B23A3A",
+    "positive": "#2A765B"
+  },
+  "semanticRoles": [
+    "background",
+    "foreground",
+    "card",
+    "border",
+    "mutedText",
+    "primaryAction",
+    "selected",
+    "hover",
+    "focus",
+    "disabled",
+    "error",
+    "success",
+    "skySafeOverlay"
+  ],
+  "typography": {
+    "arabic": "research_licensed_arabic_font",
+    "english": "research_licensed_latin_font",
+    "maxFontFilesInitialLoad": 3,
+    "criticalFontsPreloadOnly": true
+  },
+  "targetMinimumTapPx": 44,
+  "motionMs": {
+    "micro": 140,
+    "panel": 220,
+    "scene_short": 500,
+    "scene_medium": 850
+  },
+  "accessibility": {
+    "reducedMotionRequired": true,
+    "visibleFocusRequired": true,
+    "WCAGTextContrastReview": true,
+    "rtlFullCoverage": true
+  },
+  "performance": {
+    "expensiveBlurOnLowTier": false,
+    "continuousParticleLoopsByDefault": false
+  }
+}

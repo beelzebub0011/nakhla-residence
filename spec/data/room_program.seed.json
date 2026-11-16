@@ -1,0 +1,131 @@
+{
+  "unitType": "TYPE_A",
+  "note": "No actual dimensions or polygons are supplied; Claude must author physically coherent room geometry before claiming architectural accuracy. Never infer approximate area allocations as construction dimensions.",
+  "rooms": [
+    {
+      "id": "living",
+      "label_ar": "غرفة المعيشة والطعام",
+      "label_en": "Living & Dining",
+      "detailTier": "hero",
+      "customizableCategories": [
+        "flooring",
+        "wall_paint",
+        "wood_finish"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "kitchen",
+      "label_ar": "المطبخ",
+      "label_en": "Kitchen",
+      "detailTier": "hero",
+      "customizableCategories": [
+        "wall_paint",
+        "kitchen_cabinet",
+        "countertop"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "master",
+      "label_ar": "غرفة النوم الرئيسية",
+      "label_en": "Master Bedroom",
+      "detailTier": "hero",
+      "customizableCategories": [
+        "flooring",
+        "wall_paint",
+        "wood_finish"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "bathroom",
+      "label_ar": "الحمام",
+      "label_en": "Bathroom",
+      "detailTier": "hero",
+      "customizableCategories": [
+        "bathroom_tile",
+        "wall_paint",
+        "countertop"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "balcony",
+      "label_ar": "البلكونة",
+      "label_en": "Balcony",
+      "detailTier": "hero",
+      "customizableCategories": [],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "second_bedroom",
+      "label_ar": "غرفة النوم الثانية",
+      "label_en": "Second Bedroom",
+      "detailTier": "secondary",
+      "customizableCategories": [
+        "flooring",
+        "wall_paint"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "master_bath",
+      "label_ar": "حمام الغرفة الرئيسية",
+      "label_en": "Master Ensuite",
+      "detailTier": "secondary",
+      "customizableCategories": [
+        "bathroom_tile"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "laundry",
+      "label_ar": "غرفة خدمات / غسيل",
+      "label_en": "Laundry / Storage",
+      "detailTier": "secondary",
+      "customizableCategories": [
+        "wall_paint"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    },
+    {
+      "id": "entry",
+      "label_ar": "المدخل",
+      "label_en": "Entrance Foyer",
+      "detailTier": "secondary",
+      "customizableCategories": [
+        "flooring",
+        "wall_paint"
+      ],
+      "dimensions_m": null,
+      "polygon_xy_m": null,
+      "cameraPose": null,
+      "is_design_final": false
+    }
+  ]
+}

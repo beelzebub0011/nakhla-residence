@@ -1,0 +1,169 @@
+{
+ "capturedAt": "2026-11-13T16:22:21.517Z",
+ "cold": false,
+ "cycles": 20,
+ "frames": [
+  {
+   "dt": 278.8,
+   "phase": "c0:package",
+   "newPrograms": 2,
+   "newTextures": 0,
+   "top": [
+    [
+     "gl.shader(sync)",
+     262.7
+    ],
+    [
+     "engine.onState",
+     0.5
+    ],
+    [
+     "gl.draw",
+     0.5
+    ],
+    [
+     "engine.projectLabels",
+     0.3
+    ],
+    [
+     "engine.applyExplode",
+     0.2
+    ],
+    [
+     "engine.updateCine",
+     0
+    ],
+    [
+     "engine.updateSliders",
+     0
+    ],
+    [
+     "engine.ensurePost",
+     0
+    ]
+   ]
+  },
+  {
+   "dt": 284.5,
+   "phase": "c1:package",
+   "newPrograms": 2,
+   "newTextures": 0,
+   "top": [
+    [
+     "gl.shader(sync)",
+     267.5
+    ],
+    [
+     "engine.onState",
+     0.8
+    ],
+    [
+     "engine.projectLabels",
+     0.3
+    ],
+    [
+     "engine.applyExplode",
+     0.2
+    ],
+    [
+     "gl.draw",
+     0.1
+    ],
+    [
+     "engine.updateCine",
+     0
+    ],
+    [
+     "engine.updateSliders",
+     0
+    ],
+    [
+     "engine.ensurePost",
+     0
+    ]
+   ]
+  },
+  {
+   "dt": 165.1,
+   "phase": "c3:package",
+   "newPrograms": 2,
+   "newTextures": 0,
+   "top": [
+    [
+     "gl.shader(sync)",
+     151.3
+    ],
+    [
+     "engine.onState",
+     0.5
+    ],
+    [
+     "gl.draw",
+     0.2
+    ],
+    [
+     "engine.projectLabels",
+     0.2
+    ],
+    [
+     "engine.applyExplode",
+     0.1
+    ],
+    [
+     "engine.updateCine",
+     0
+    ],
+    [
+     "engine.updateSliders",
+     0
+    ],
+    [
+     "engine.ensurePost",
+     0
+    ]
+   ]
+  },
+  {
+   "dt": 158,
+   "phase": "c4:package",
+   "newPrograms": 2,
+   "newTextures": 0,
+   "top": [
+    [
+     "gl.shader(sync)",
+     140.8
+    ],
+    [
+     "engine.onState",
+     0.8
+    ],
+    [
+     "gl.draw",
+     0.2
+    ],
+    [
+     "engine.applyExplode",
+     0.2
+    ],
+    [
+     "engine.projectLabels",
+     0.2
+    ],
+    [
+     "engine.updateCine",
+     0
+    ],
+    [
+     "engine.updateSliders",
+     0
+    ],
+    [
+     "engine.ensurePost",
+     0
+    ]
+   ]
+  }
+ ],
+ "programs": 83,
+ "textures": 187
+}

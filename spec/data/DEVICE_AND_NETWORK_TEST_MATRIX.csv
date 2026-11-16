@@ -1,0 +1,13 @@
+﻿id,device_class,browser,viewport_css,input,network,quality,test_scenario,actual_result,evidence,status
+DEV-001,iPhone compact,Safari,360x780,touch,4G/Slow4G,auto,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-002,iPhone standard,Safari,390x844,touch,4G,auto,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-003,iPhone landscape,Safari,844x390,touch,4G,low,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-004,Android midrange,Chrome,412x915,touch,4G/Slow4G,auto,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-005,Android budget,Chrome,360x800,touch,3G/Slow4G,low,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-006,iPad portrait,Safari,768x1024,touch/stylus,WiFi,auto,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-007,iPad landscape,Safari,1024x768,touch/trackpad,WiFi,auto,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-008,Laptop integrated GPU,Edge/Chrome,1366x768,mouse/keyboard,WiFi,auto,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-009,Mac desktop,Safari,1440x900,mouse/keyboard,WiFi,balanced,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-010,Desktop regular,Firefox,1440x900,mouse/keyboard,WiFi,auto,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-011,Desktop high power,Chrome,1920x1080,mouse/keyboard,WiFi,high,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN
+DEV-012,Unsupported GPU fallback,any,390x844,touch,Offline/4G,lite,Complete navigation + materials + weather/time/season + export + recovery,,,NOT_RUN

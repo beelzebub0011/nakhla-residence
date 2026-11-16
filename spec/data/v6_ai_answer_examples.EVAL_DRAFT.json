@@ -1,0 +1,174 @@
+{
+  "note": "Illustrative semantic expectations, not pre-verified output. Must be manually reviewed for all 4 languages; mustContain tokens are rough and not a production parser.",
+  "cases": [
+    {
+      "id": "ex01",
+      "locale": "ar",
+      "context": {
+        "activeFloorId": "F04",
+        "activeUnitId": "U04A"
+      },
+      "question": "شكد مساحة الشقة؟",
+      "mustContain": [
+        "125",
+        "تقريب"
+      ],
+      "mustNotContain": [
+        "دقيقة",
+        "مصدقة"
+      ],
+      "status": "concept_estimate",
+      "source": "tower_concept.unitTypes[TYPE_A].approx_area_sqm"
+    },
+    {
+      "id": "ex02",
+      "locale": "ar",
+      "context": {
+        "activeFloorId": "F04",
+        "activeUnitId": "U04A",
+        "activeRoomId": "living"
+      },
+      "question": "شكد طول الصالة؟",
+      "mustContain": [
+        "غير",
+        "قياس"
+      ],
+      "mustNotContain": [
+        "6 متر",
+        "4 متر"
+      ],
+      "status": "unknown",
+      "source": "room_program.rooms[living].dimensions_m"
+    },
+    {
+      "id": "ex03",
+      "locale": "ar",
+      "context": {
+        "selectedSurfaceId": null
+      },
+      "question": "شنو نوع هذا الخشب؟",
+      "mustContain": [
+        "تقصد"
+      ],
+      "mustNotContain": [
+        "walnut بالتأكيد"
+      ],
+      "status": "unknown",
+      "source": "requires selectedSurfaceId"
+    },
+    {
+      "id": "ex04",
+      "locale": "ar",
+      "context": {
+        "activeFloorId": "F01"
+      },
+      "question": "وين المسبح؟",
+      "mustContain": [
+        "10"
+      ],
+      "mustNotContain": [
+        "الطابق 11"
+      ],
+      "status": "demo_schema",
+      "source": "navigation_manifest.amenityZones.F10"
+    },
+    {
+      "id": "ex05",
+      "locale": "ar",
+      "context": {
+        "activeUnitId": "U07B"
+      },
+      "question": "هل الشقة للبيع وشكد سعرها؟",
+      "mustContain": [
+        "نموذج"
+      ],
+      "mustNotContain": [
+        "دولار",
+        "متاحة للبيع"
+      ],
+      "status": "unknown",
+      "source": "tower_concept.units[U07B].display_status"
+    },
+    {
+      "id": "ex06",
+      "locale": "ar",
+      "context": {
+        "activeUnitId": "U01A"
+      },
+      "question": "شنو ارتفاع السقف؟",
+      "mustContain": [
+        "غير"
+      ],
+      "mustNotContain": [
+        "3.4 متر صافي"
+      ],
+      "status": "unknown",
+      "source": "room_program.rooms and no ceiling schedule"
+    },
+    {
+      "id": "ex07",
+      "locale": "en",
+      "context": {
+        "activeUnitId": "U05B"
+      },
+      "question": "What is the approximate area?",
+      "mustContain": [
+        "145",
+        "concept"
+      ],
+      "mustNotContain": [
+        "certified"
+      ],
+      "status": "concept_estimate",
+      "source": "tower_concept.unitTypes[TYPE_B].approx_area_sqm"
+    },
+    {
+      "id": "ex08",
+      "locale": "zh",
+      "context": {
+        "activeUnitId": "U01A"
+      },
+      "question": "游泳池在几层？",
+      "mustContain": [
+        "10"
+      ],
+      "mustNotContain": [
+        "11楼泳池"
+      ],
+      "status": "demo_schema",
+      "source": "navigation_manifest.amenityZones.F10"
+    },
+    {
+      "id": "ex09",
+      "locale": "ckb",
+      "context": {
+        "activeUnitId": "U09A"
+      },
+      "question": "ڕووبەری ئەم شوقەیە چەندە؟",
+      "mustContain": [
+        "125"
+      ],
+      "mustNotContain": [
+        "پەسەندکراوە"
+      ],
+      "status": "concept_estimate",
+      "source": "tower_concept.unitTypes[TYPE_A].approx_area_sqm"
+    },
+    {
+      "id": "ex10",
+      "locale": "ar",
+      "context": {
+        "activeFloorId": "F10"
+      },
+      "question": "كم عمق المسبح؟",
+      "mustContain": [
+        "غير"
+      ],
+      "mustNotContain": [
+        "1.5 متر"
+      ],
+      "status": "unknown",
+      "source": "pool depth not sourced"
+    }
+  ]
+}

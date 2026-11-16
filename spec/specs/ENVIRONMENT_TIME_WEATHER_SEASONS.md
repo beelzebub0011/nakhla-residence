@@ -1,0 +1,45 @@
+# REALTIME ENVIRONMENT LAB — 4 SEASONS × WEATHER × TIME OF DAY
+
+## Vision
+The user may interactively change hour, sun position, moonlit/night ambience, sky, outdoor weather and season *without reloading the building and without resetting the selected floor/unit/room or finishes*. This is a compelling premium demo differentiator, not a meteorology claim. The geographic atmosphere should feel plausible for Basra, Iraq; real weather data and precise solar calculations are optional if independently validated; never invent live meteorological conditions or represent a virtual storm as actual current Basra weather.
+
+## Interaction surface
+Provide a top-right `Environment` compact launcher in tower view; in small screens a bottom sheet. Controls:
+(1) `Time`: slider 00:00–23:59, accessible keyboard arrows and editable preset values; fast presets Sunrise / Midday / Golden Hour / Sunset / Night; optional `Follow Local Time` only when timezone and site/date logic are defined and marked simulated; 12/24h notation localized.
+(2) `Weather`: Clear / Partly Cloudy / Overcast / Light Rain / Dust/Haze / Windy. Optional heat shimmer only on high tier and subtle. Offer Rain-on-exterior without flooding all interiors; climate realism matters. Never use thunderstorms/lightning by default.
+(3) `Season`: Spring / Summer / Autumn / Winter. Spring changes greenery/pollen visually where appropriate, Summer brighter harsher solar light and faded warm vegetation, Autumn subdued landscape, Winter softer sun/cooler lighting but still Basra-like. NO snow blanket, snowy palms or alpine mountains as default because inaccurate. Optional stylistic 'fantasy mode' only explicitly labeled if ever added.
+(4) `Quality`: Auto/Low/Balanced/High/Ultra separate from environment; Save favorite combination; Reset to realistic default (clear afternoon/summer or user-chosen documented standard).
+(5) Optional `A/B Atmosphere Compare` two-snapshot split before/after without rendering two separate complex real-time canvases on low hardware.
+
+## State model and non-negotiable invariants
+Store independent fields: environmentPresetId, timeMinutes [0..1439], seasonId, weatherId, simulatedDateISO, geoReferenceZone (Basra region, approximate), ambientSoundEnabled, environmentEffectsEnabled. Locale and units separate. Changes must be stable across all exploration views; changing environment does NOT reset camera, material overrides, scene, floor, room, selected unit, favorites, view mode or accessibility preferences. URL share may include compact environment tokens. Invalid shared values yield safe defaults, not app crash. Changing seasons while walking inside is not forced to reinitialize collision or wall geometry.
+
+## Scientific/visual correspondence
+Use coherent geographical approximate sun direction based on a notional geographic orientation; a floor plan must declare north in the canonical data model. To simulate realistic sun, implement/test a solar positioning algorithm with local date, Baghdad timezone, broad Basra coordinates where appropriate; label as illustrative if lacking a real project address or accurate site north. If physically accurate implementation is not viable, use visually plausible documented solar presets; avoid marketing it as an engineered daylight or energy study. Indoor light through physically modeled windows should change with sun side and exposure; light intensity and shade under fins/balconies should behave believably. Night: darker sky, minimal indirect ambience, correctly lit interior/window emissives and restrained architecture lighting. Dawn/dusk: warm low-angle sun, long shadows and graded sky. Cloudy: softer diffuse shadows, desaturated contrast, lower direct sunlight. Rain: darkens **exterior** pavement and stone roughness appropriately, low-cost puddle decals where feasible, restrained sky/drizzle/streaks, NO synthetic rain in furnished apartment unless door open. Dust: warm neutral haze, distant visibility reduction, particles optional, safety/comfort not obscured. Wind: subtle tree motion in higher tiers, no wind physics demands on buildings.
+For interior changes, daylight and blinds/shading interact; material colors must not permanently change on environment toggle. PBR materials preserve own hue/roughness; sky/HDRI affects lighting only. The material inspector always displays actual chosen category, not weather-dependent fake color name. Night lamps use tagged emissive circuits and tuned light budget, not dozens of realtime shadow-casting points.
+
+## Performance strategy: NO EXCEPTION
+No full 12-building copies for each season, no 4 video overlays on mobile, no loading all environment HDRIs/8K skies upfront. Parameterize the SAME geometry; use few small shared sky/cubemap/HDRI variants with lighting interpolation and atmospheric shaders that can be simplified. Keep rain/wind/dust effects on a toggleable plugin/subscene, with per-quality object/particle caps. Static 2D fallback illustrates day/night/season/weather via compressed responsive artwork, with honest labels. Strongly prefer 2-4 cheap sky texture variants rather than 24 preloaded 4K HDR maps.
+- Update only relevant shader uniforms, sun+sky and specific terrain/wetness channels on slider movement; debounce heavier shadow map changes while dragging, apply final high-quality state on release.
+- Smooth 250-800ms transition (actual time profiled) for most changes, preserving accessibility reduced-motion instant alternative.
+- Stop simulation at idle, offscreen, background tab or low quality. Never run particle animation if 2D Lite view is active.
+- Prefetch only adjacent environment assets when network spare capacity exists; environmental changes NEVER delay floor selection or room/back buttons.
+- Automatic quality manager may disable animated rain/vegetation while retaining *visible weather state* in sky/lighting and selected label.
+
+## Weather room effects and view consistency
+Exterior and balcony see sky/weather, while interior primarily gets window illumination and distant atmospherics. When a visitor is inside Living Room on floor 04 and switches to night+rain+winter, camera stays on floor04/living; external windows become night/rain, room lamps activate (depending on controlled switch), floor/wood materials remain unchanged. Interior gallery high-quality stills must be labeled as a preset if it doesn't match custom current time/material/weather. Never silently state gallery reflects a combination not actually rendered. `Capture this view` should use current viewer pixels (quality disclosure), while `Premium Render Gallery` explicitly shows curated shots from Blender.
+
+## UX narrative & use cases
+- Exterior example: Afternoon clear Summer -> sunset Spring -> rainy winter evening -> warm summer dawn, all without scene reload.
+- Floor example: choose Floor 07 then change from day to night; individual apartment balcony is shaded according to facade orientation.
+- Room example: kitchen walnut to pearl-white, then sun from 14:00 to 18:00 and partly cloudy without losing the finish; sharing reproduces both choices.
+- Balcony example: building north compass, approximate solar angle; do not invent a real river view or neighboring skyline.
+- Amenity: pool and restaurant vary mood; pool glazing sunset, café night lighting. Water reflections use efficient approximation and static baked details on lower tiers; no expensive full real-time refraction required.
+
+## UI semantics/labels
+`Simulated Environment`, `Summer / صيف`, `Light Rain / مطر خفيف`, `Golden Hour / الساعة الذهبية`, `Sun direction / اتجاه الشمس`, `Current design selection preserved`. If "current weather" offered in the future, it must be a clearly distinct opt-in integration tied to a real reliable source; user consent, rate limits, fallback and no hidden paid API. Tooltip on sun compass: "Visual concept only, not a verified solar/thermal study".
+
+## Test matrix P0
+1. All 4 seasons and six weather states selectable, no fatal errors; 2. All times 00:00, 06:00, 12:00, 18:00, 23:59 and slider continuous; 3. After 100 environment switches scene does not leak; 4. material selection identical before/after switch; 5. no 3D scene re-fetch for base model after weather change; 6. no autoplay sound; 7. atmosphere state persists on navigation, reload and locale change; 8. correct outdoor vs indoor effects, no indoor rain; 9. performance budget maintained by fallback on low; 10. accessible labels and reduced-motion; 11. 2D mode shows approximate weather state; 12. invalid share query safely resets; 13. no false live weather claim; 14. visually validate 4 representative combinations with screenshots; 15. phone rotation/keyboard switching does not reset environment; 16. hover/click floors unaffected by rain effect mesh; 17. camera unaffected while environment transitions.
+
+Potential future WOW: accurately simulated sun-path and shadow on selected balcony after professional orientation review, downloadable lighting comparison snapshots for buyer, quiet ambient audio on opt-in with licensing, guided seasonal tours. These are separate milestones after performance passes.

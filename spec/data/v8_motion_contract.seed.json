@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 8,
+  "status": "DRAFT_REQUIREMENTS_NO_SITE_RUN",
+  "title": "NAKHLA signature motion quality contract",
+  "preservePreviousV7SevenGates": true,
+  "additionalGate": "G8_motion_continuity_comfort",
+  "mainSections": [
+    "explore",
+    "tour",
+    "design",
+    "amenities"
+  ],
+  "soundDefaultOff": true,
+  "cameraOwnership": "single_writer_per_frame",
+  "modes": [
+    "cinematic",
+    "guided",
+    "free_walk",
+    "property_explorer"
+  ],
+  "uiMotionPreferences": {
+    "defaultWhenOsNormal": "gentle",
+    "defaultWhenOsReduced": "reduced",
+    "choices": [
+      "gentle",
+      "reduced"
+    ],
+    "alwaysInterruptible": true
+  },
+  "frameRatesAndTargets": {
+    "capableDesktopFrameTimeP95MsMaxProposed": 20,
+    "midrangeMobileFrameTimeP95MsMaxProposed": 35,
+    "hitchThresholdMs": 50,
+    "physicalDeviceVerificationRequired": true,
+    "doNotClaimGuaranteedFrameRate": true
+  },
+  "durationsMsTuningBands": {
+    "microInteraction": [
+      110,
+      180
+    ],
+    "uiSheet": [
+      180,
+      320
+    ],
+    "sectionChange": [
+      360,
+      650
+    ],
+    "floorFocus": [
+      650,
+      1100
+    ],
+    "nearbyRoomTravel": [
+      650,
+      1400
+    ],
+    "remoteFacility": [
+      300,
+      600
+    ],
+    "materialVisualReveal": [
+      160,
+      320
+    ],
+    "dayNightEnvironment": [
+      600,
+      1200
+    ]
+  },
+  "camera": {
+    "frameRateIndependent": true,
+    "quaternionInterpolation": true,
+    "collisionSafePathRequired": true,
+    "retargetFromCurrentPose": true,
+    "preserveVelocityIfSafe": true,
+    "maxDeltaSecondsOnResume": 0.05,
+    "noForcedAutoRotate": true
+  },
+  "animationPerformance": {
+    "uiPreferTransformAndOpacity": true,
+    "avoidLayoutThrash": true,
+    "preventShaderCompilationHitches": true,
+    "assetPrefetchWithinMemoryBudget": true,
+    "resourceDisposalOnSceneChange": true,
+    "onePropertyOneMotionOwner": true
+  },
+  "states": [
+    "IDLE",
+    "PREPARING",
+    "PLAYING",
+    "PAUSED",
+    "CANCELLING",
+    "RECOVERING",
+    "REDUCED_MOTION"
+  ],
+  "qa": {
+    "minimumFirstTimeComfortParticipantsIfAvailable": 3,
+    "newCases": 80,
+    "allNotRunInitially": true,
+    "captureFrameP50P95P99": true,
+    "run20SceneSwitchCycles": true
+  },
+  "higgsfield": {
+    "runtimeDependency": false,
+    "onlyOptionalMarketingAssets": true
+  }
+}

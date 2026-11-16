@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 5,
+  "warning": "Illustrative content architecture, not implemented software",
+  "defaultSection": "explore",
+  "landingIsNotPermanentTab": true,
+  "sections": [
+    {
+      "id": "explore",
+      "labelKey": "v5.sectionExplore",
+      "icon": "building-2",
+      "primaryAction": "v5.selectApartment",
+      "tools": [
+        "smart_finder",
+        "apartment_compare",
+        "sun_view",
+        "xray_pro"
+      ],
+      "context": "tower/floor/unit",
+      "entryRoute": "/explore"
+    },
+    {
+      "id": "tour",
+      "labelKey": "v5.sectionTour",
+      "icon": "footprints",
+      "primaryAction": "v5.enterRoom",
+      "tools": [
+        "camera_mode_picker",
+        "day_in_life",
+        "furniture_fit",
+        "measurements"
+      ],
+      "context": "selected unit/room",
+      "entryRoute": "/tour"
+    },
+    {
+      "id": "design",
+      "labelKey": "v5.sectionDesign",
+      "icon": "palette",
+      "primaryAction": "v5.editFinishes",
+      "tools": [
+        "material_inspector",
+        "finish_compare",
+        "style_suggestions",
+        "my_apartment"
+      ],
+      "context": "selected unit/room/surface",
+      "entryRoute": "/design"
+    },
+    {
+      "id": "amenities",
+      "labelKey": "v5.sectionAmenities",
+      "icon": "waves",
+      "primaryAction": "v5.visitAmenities",
+      "tools": [
+        "wellness_floor",
+        "sky_dining_floor",
+        "amenity_gallery"
+      ],
+      "context": "F10/F11",
+      "entryRoute": "/amenities"
+    }
+  ],
+  "persistentUtilities": [
+    "breadcrumbs",
+    "back",
+    "home",
+    "my_apartment_summary",
+    "language",
+    "sound_default_off",
+    "help",
+    "quality_lite",
+    "creator_contact"
+  ],
+  "conditionalToolsNotGlobalModes": true,
+  "explorationModeIsOnlyCameraMode": true,
+  "mobileBottomTabsMax": 4,
+  "singleActiveOverlay": true,
+  "allowFull2DLiteNavigation": true,
+  "statePreserve": [
+    "activeFloorId",
+    "activeUnitId",
+    "activeRoomId",
+    "materialOverrides",
+    "cameraBookmarkByMode",
+    "locale",
+    "seasonId",
+    "weatherId",
+    "timeMinutes",
+    "audio.muted"
+  ],
+  "featureFlags": [
+    {
+      "id": "smart_finder",
+      "section": "explore",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "rule_based_local"
+    },
+    {
+      "id": "apartment_compare",
+      "section": "explore",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "two_at_most"
+    },
+    {
+      "id": "sun_view",
+      "section": "explore",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "illustrative_until_grounded"
+    },
+    {
+      "id": "xray_pro",
+      "section": "explore",
+      "tier": "P2",
+      "default": "off_until_tested",
+      "requirement": "actual_meshes_only"
+    },
+    {
+      "id": "camera_mode_picker",
+      "section": "tour",
+      "tier": "P0",
+      "default": "on_when_tested",
+      "requirement": "single_explorationMode"
+    },
+    {
+      "id": "day_in_life",
+      "section": "tour",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "five_chapters_skippable"
+    },
+    {
+      "id": "furniture_fit",
+      "section": "tour",
+      "tier": "P2",
+      "default": "off_until_tested",
+      "requirement": "meter_geometry_only"
+    },
+    {
+      "id": "measurements",
+      "section": "tour",
+      "tier": "P2",
+      "default": "off_until_tested",
+      "requirement": "clearly_approximate_if_unverified"
+    },
+    {
+      "id": "material_inspector",
+      "section": "design",
+      "tier": "P0",
+      "default": "on_when_tested",
+      "requirement": "real_pbr"
+    },
+    {
+      "id": "finish_compare",
+      "section": "design",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "single_renderer"
+    },
+    {
+      "id": "style_suggestions",
+      "section": "design",
+      "tier": "P2",
+      "default": "off_until_tested",
+      "requirement": "local_rules_default"
+    },
+    {
+      "id": "my_apartment",
+      "section": "design",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "no_account"
+    },
+    {
+      "id": "wellness_floor",
+      "section": "amenities",
+      "tier": "P0",
+      "default": "on_when_tested",
+      "requirement": "F10_only"
+    },
+    {
+      "id": "sky_dining_floor",
+      "section": "amenities",
+      "tier": "P0",
+      "default": "on_when_tested",
+      "requirement": "F11_only"
+    },
+    {
+      "id": "amenity_gallery",
+      "section": "amenities",
+      "tier": "P0",
+      "default": "on_when_tested",
+      "requirement": "truthful_renders"
+    },
+    {
+      "id": "presentation_room",
+      "section": "global_more",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "opt_in_only"
+    },
+    {
+      "id": "share_qr_export",
+      "section": "global_summary",
+      "tier": "P1",
+      "default": "on_when_tested",
+      "requirement": "allowlisted_local"
+    },
+    {
+      "id": "ai_concierge",
+      "section": "global_help",
+      "tier": "P0",
+      "default": "on_when_tested",
+      "requirement": "V6 local grounded factual AI property expert; external generative LLM P2 off by default"
+    },
+    {
+      "id": "white_label_config",
+      "section": "backoffice",
+      "tier": "P2",
+      "default": "off_until_tested",
+      "requirement": "schema_only_before_cms"
+    }
+  ],
+  "noP1BeforeP0PerfGate": true,
+  "noP2BeforeP1PerfGate": true
+}

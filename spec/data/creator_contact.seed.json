@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 3,
+  "publicContactExplicitlyRequested": true,
+  "creator": {
+    "fullLegalName": "Rashid Omar Mohammed",
+    "publicDisplayName": "Rashid Omar Mohammed",
+    "nameArabic": "راشد عمر محمد",
+    "roleEn": "Concept creator & project owner",
+    "roleAr": "صاحب فكرة المشروع والتجربة التفاعلية",
+    "phoneDisplay": "+9647700864990",
+    "phoneE164": "+9647700864990",
+    "telHref": "tel:+9647700864990",
+    "email": "rashid.iq12@gmail.com",
+    "mailtoHref": "mailto:rashid.iq12@gmail.com",
+    "whatsappHref": "https://wa.me/9647700864990"
+  },
+  "copyright": {
+    "year": 2026,
+    "noticeEn": "© 2026 Rashid Omar Mohammed. All rights reserved (original project materials only).",
+    "noticeAr": "© 2026 راشد عمر محمد — جميع الحقوق محفوظة للمواد الأصلية الخاصة بالمشروع فقط."
+  },
+  "fictionalListingDisclaimer": {
+    "ar": "مشروع تصوّري للعرض التقني، وليس عقاراً حقيقياً معروضاً للبيع.",
+    "en": "An original conceptual technology showcase, not a real property listing."
+  },
+  "exposurePolicy": "Creator explicitly requests public display; central config permits change; never leak visitor data; no false developer representation.",
+  "contactPlacements": [
+    "about_creator",
+    "site_footer",
+    "summary_contact_card",
+    "pdf_export",
+    "branded_screenshot"
+  ],
+  "developerSalesIsReal": false
+}

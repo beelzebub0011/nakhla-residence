@@ -1,0 +1,72 @@
+[
+ {
+  "name": "exterior_day",
+  "peakDb": -4.1,
+  "rmsDb": -25.3
+ },
+ {
+  "name": "exterior_night",
+  "peakDb": -15.6,
+  "rmsDb": -30.2
+ },
+ {
+  "name": "exterior_rain",
+  "peakDb": -7.3,
+  "rmsDb": -24.7
+ },
+ {
+  "name": "exterior_dust_wind",
+  "peakDb": -7.9,
+  "rmsDb": -22.9
+ },
+ {
+  "name": "terrace_evening",
+  "peakDb": -16.6,
+  "rmsDb": -30.8
+ },
+ {
+  "name": "home_day",
+  "peakDb": -17.4,
+  "rmsDb": -31.2
+ },
+ {
+  "name": "home_rain",
+  "peakDb": -17.2,
+  "rmsDb": -31.1
+ },
+ {
+  "name": "lobby",
+  "peakDb": -16.8,
+  "rmsDb": -30.9
+ },
+ {
+  "name": "pool",
+  "peakDb": -15.3,
+  "rmsDb": -30.6
+ },
+ {
+  "name": "gym",
+  "peakDb": -18.9,
+  "rmsDb": -32.8
+ },
+ {
+  "name": "spa",
+  "peakDb": -19.6,
+  "rmsDb": -34.5
+ },
+ {
+  "name": "restaurant",
+  "peakDb": -7.8,
+  "rmsDb": -29.5
+ },
+ {
+  "name": "cafe",
+  "peakDb": -4.7,
+  "rmsDb": -31
+ },
+ {
+  "name": "home_day_with_music",
+  "peakDb": -15.2,
+  "rmsDb": -29
+ }
+]

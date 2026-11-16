@@ -1,0 +1,26 @@
+node_modules/
+dist/
+*.log
+.vite/
+test-results/
+playwright-report/
+blender/*.blend1
+blender/*.blend1
+
+# derived Blender inputs/outputs (regenerate: npm run export:scene && npm run blender)
+blender/scene_meshes.bin
+blender/tex/
+blender/*.blend1
+assets_src/polyhaven/*.hdr
+blender/*.blend
+blender/*.glb
+
+# private study frames of third-party reference reels (never publish)
+references/private_frames/
+REVIEW_PACK/INSTAGRAM_COMPARISONS/
+project_artifacts/reference_study/comparisons/
+project_artifacts/reference_study/frames/
+
+# V11.4 crown preview: raw live captures (boards and Cycles stills are kept)
+project_artifacts/crown_preview/live_*/
+.netlify/

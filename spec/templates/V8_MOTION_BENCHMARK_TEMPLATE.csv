@@ -1,0 +1,1 @@
+run_id,transition_id,device_model,physical_or_emulator,os,browser_version,quality_tier,network,resolution,refresh_hz,test_duration_s,frame_ms_p50,frame_ms_p95,frame_ms_p99,hitches_over_50ms,JS_heap_mb_start,JS_heap_mb_end,GPU_memory_proxy_mb,interrupt_latency_ms,reduced_motion,evidence_trace_path,result_PASS_BLOCKED_NOT_RUN,notes

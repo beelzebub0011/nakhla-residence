@@ -1,0 +1,13 @@
+﻿floor_id,level_number,use,unit_count,specific_zones,concept_only
+G,0,ground,0,lobby | reception | security | services,YES
+F01,1,residential,2,,YES
+F02,2,residential,2,,YES
+F03,3,residential,2,,YES
+F04,4,residential,2,,YES
+F05,5,residential,2,,YES
+F06,6,residential,2,,YES
+F07,7,residential,2,,YES
+F08,8,residential,2,,YES
+F09,9,residential,2,,YES
+F10,10,wellness,0,gym | pool | spa | changing | wellness-lounge,YES
+F11,11,dining,0,restaurant | cafe | kitchen | terrace | shisha-conditional,YES

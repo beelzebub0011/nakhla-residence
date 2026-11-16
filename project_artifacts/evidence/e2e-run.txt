@@ -1,0 +1,97 @@
+
+Running 53 tests using 1 worker
+
+  ok  1 tests\e2e\access.spec.ts:16:7 › four locales › ar @ 1366px: direction, exactly four sections, no horizontal overflow (4.8s)
+  ok  2 tests\e2e\access.spec.ts:16:7 › four locales › en @ 1366px: direction, exactly four sections, no horizontal overflow (3.7s)
+  ok  3 tests\e2e\access.spec.ts:16:7 › four locales › ckb @ 1366px: direction, exactly four sections, no horizontal overflow (3.6s)
+  ok  4 tests\e2e\access.spec.ts:16:7 › four locales › zh @ 1366px: direction, exactly four sections, no horizontal overflow (3.6s)
+  ok  5 tests\e2e\access.spec.ts:16:7 › four locales › ar @ 820px: direction, exactly four sections, no horizontal overflow (3.6s)
+  ok  6 tests\e2e\access.spec.ts:16:7 › four locales › en @ 820px: direction, exactly four sections, no horizontal overflow (3.6s)
+  ok  7 tests\e2e\access.spec.ts:16:7 › four locales › ckb @ 820px: direction, exactly four sections, no horizontal overflow (3.6s)
+  ok  8 tests\e2e\access.spec.ts:16:7 › four locales › zh @ 820px: direction, exactly four sections, no horizontal overflow (4.2s)
+  ok  9 tests\e2e\access.spec.ts:16:7 › four locales › ar @ 390px: direction, exactly four sections, no horizontal overflow (4.2s)
+  ok 10 tests\e2e\access.spec.ts:16:7 › four locales › en @ 390px: direction, exactly four sections, no horizontal overflow (3.5s)
+  ok 11 tests\e2e\access.spec.ts:16:7 › four locales › ckb @ 390px: direction, exactly four sections, no horizontal overflow (3.5s)
+  ok 12 tests\e2e\access.spec.ts:16:7 › four locales › zh @ 390px: direction, exactly four sections, no horizontal overflow (3.6s)
+  ok 13 tests\e2e\access.spec.ts:34:3 › four locales › switching language keeps floor, unit, room, finishes, environment and mute state (6.2s)
+  ok 14 tests\e2e\access.spec.ts:50:3 › quiet by default › sound is off on load, turns on only from the sound control, and is off again after reload (8.8s)
+  ok 15 tests\e2e\access.spec.ts:71:3 › assistant, summary and privacy › Nakhla assistant: grounded answers, typed navigation, confirmation before changing a finish (5.4s)
+  ok 16 tests\e2e\access.spec.ts:90:3 › assistant, summary and privacy › My apartment: schedule, share link, demo enquiry sends nothing, creator contact is exact (4.5s)
+  ok 17 tests\e2e\access.spec.ts:113:3 › assistant, summary and privacy › share link restores the exact state; browser Back and Forward walk the journey (13.4s)
+  x  18 tests\e2e\access.spec.ts:129:1 › gallery: live capture of the current view + 12 labelled offline renders (14.6s)
+  ok 19 tests\e2e\access.spec.ts:144:3 › keyboard and 2D fallback › floors, apartments and rooms are operable by keyboard alone (9.0s)
+  ok 20 tests\e2e\access.spec.ts:161:3 › keyboard and 2D fallback › 2D Lite: full navigation, facts, finishes and the assistant without WebGL (2.6s)
+  ok 21 tests\e2e\motion.spec.ts:7:3 › V8 motion behaviour › rapid floor changes: last intent wins, the camera never jumps (4.0s)
+  ok 22 tests\e2e\motion.spec.ts:26:3 › V8 motion behaviour › Back during a transition interrupts immediately and state stays consistent (3.7s)
+  ok 23 tests\e2e\motion.spec.ts:38:3 › V8 motion behaviour › reduced motion: OS preference is honoured at first paint and mid-session (5.6s)
+  ok 24 tests\e2e\motion.spec.ts:68:3 › V8 motion behaviour › OS reduced-motion change during a transition switches behaviour without breaking state (3.6s)
+  ok 25 tests\e2e\motion.spec.ts:79:3 › V8 motion behaviour › WebGL context loss: selections survive, 2D is offered, 3D recovers (6.0s)
+  ok 26 tests\e2e\motion.spec.ts:95:3 › V8 motion behaviour › 20 navigation cycles: no resource growth, frame-time record exported (1.7m)
+  ok 27 tests\e2e\slice.spec.ts:8:3 › V8 vertical slice › landing is legible first, silent, and one tap enters the tower (2.5s)
+  ok 28 tests\e2e\slice.spec.ts:22:3 › V8 vertical slice › tower -> floor -> unit -> room -> material -> back, with real clicks and frame timing (14.5s)
+  ok 29 tests\e2e\slice.spec.ts:96:3 › V8 vertical slice › room to room travels through the real doorway and switching modes keeps the pose (8.5s)
+  ok 30 tests\e2e\slice.spec.ts:126:3 › V8 vertical slice › amenities: level 10 pool and level 11 café are reachable and distinct (9.7s)
+  ok 31 tests\e2e\slice.spec.ts:142:3 › V8 vertical slice › environment: time, season and weather blend without touching selections (6.2s)
+  ok 32 tests\e2e\visual.spec.ts:31:3 › visual: tower-ar-desktop (4.0s)
+  ok 33 tests\e2e\visual.spec.ts:31:3 › visual: floor04-en-desktop (5.1s)
+  ok 34 tests\e2e\visual.spec.ts:31:3 › visual: unit04a-ckb-desktop (5.1s)
+  ok 35 tests\e2e\visual.spec.ts:31:3 › visual: living-zh-desktop (5.2s)
+  ok 36 tests\e2e\visual.spec.ts:31:3 › visual: kitchen-walnut-en-desktop (5.3s)
+  ok 37 tests\e2e\visual.spec.ts:31:3 › visual: master-luxury-ar-desktop (5.2s)
+  ok 38 tests\e2e\visual.spec.ts:31:3 › visual: bathroom-marble-en-desktop (5.6s)
+  ok 39 tests\e2e\visual.spec.ts:31:3 › visual: pool-f10-en-desktop (5.4s)
+  ok 40 tests\e2e\visual.spec.ts:31:3 › visual: gym-f10-ar-desktop (4.9s)
+C:\PC\Claude\nakhla-residence\tests\e2e\__screenshots__\restaurant-f11-golden-en.png is re-generated, writing actual.
+  ok 41 tests\e2e\visual.spec.ts:31:3 › visual: restaurant-f11-golden-en (5.7s)
+  ok 42 tests\e2e\visual.spec.ts:31:3 › visual: terrace-f11-floor-zh (4.8s)
+  ok 43 tests\e2e\visual.spec.ts:31:3 › visual: tower-night-en (4.0s)
+  ok 44 tests\e2e\visual.spec.ts:31:3 › visual: tower-dust-autumn-ar (3.9s)
+  ok 45 tests\e2e\visual.spec.ts:31:3 › visual: tower-rain-winter-ckb (3.9s)
+  ok 46 tests\e2e\visual.spec.ts:31:3 › visual: tower-ar-phone (3.6s)
+  ok 47 tests\e2e\visual.spec.ts:31:3 › visual: unit-en-phone (4.8s)
+  ok 48 tests\e2e\visual.spec.ts:31:3 › visual: living-ar-tablet (4.9s)
+  ok 49 tests\e2e\visual.spec.ts:31:3 › visual: assistant-ckb-phone (5.4s)
+  ok 50 tests\e2e\visual.spec.ts:31:3 › visual: summary-en-desktop (5.5s)
+  ok 51 tests\e2e\visual.spec.ts:31:3 › visual: environment-sheet-ar (4.4s)
+  ok 52 tests\e2e\visual.spec.ts:40:1 › visual: 2D Lite plan (no WebGL) (3.4s)
+  ok 53 tests\e2e\visual.spec.ts:47:1 › visual: landing screen in four languages (6.8s)
+
+
+  1) tests\e2e\access.spec.ts:129:1 › gallery: live capture of the current view + 12 labelled offline renders 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByTestId('sheet-gallery').locator('img[src*="renders/"]')
+    Expected: 12
+    Received: 19
+    Timeout:  10000ms
+
+    Call log:
+      - Expect "toHaveCount" getByTestId('sheet-gallery').locator('img[src*="renders/"]') with timeout 10000ms
+      - waiting for getByTestId('sheet-gallery').locator('img[src*="renders/"]')
+        23 × locator resolved to 19 elements
+           - unexpected value "19"
+
+
+      131 |   await page.getByTestId('menu').click(); await page.getByTestId('menu-gallery').click();
+      132 |   const sheet = page.getByTestId('sheet-gallery');
+    > 133 |   await expect(sheet.locator('img[src*="renders/"]')).toHaveCount(12);
+          |                                                       ^
+      134 |   await expect(sheet).toContainText('Offline render from the same model');
+      135 |   await sheet.getByTestId('capture').click();
+      136 |   await expect(sheet.locator('img[src^="data:image"]')).toHaveCount(1);
+        at C:\PC\Claude\nakhla-residence\tests\e2e\access.spec.ts:133:55
+
+    Error Context: test-results\access-gallery-live-captur-90916-12-labelled-offline-renders\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\access-gallery-live-captur-90916-12-labelled-offline-renders\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\access-gallery-live-captur-90916-12-labelled-offline-renders\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\e2e\access.spec.ts:129:1 › gallery: live capture of the current view + 12 labelled offline renders 
+  52 passed (6.5m)

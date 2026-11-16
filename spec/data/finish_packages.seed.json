@@ -1,0 +1,41 @@
+{
+  "notice": "Marketing concepts only; not actual upgrade prices or availability",
+  "packages": {
+    "standard": {
+      "title_en": "Warm Ivory",
+      "title_ar": "العاجي الدافئ",
+      "ids": {
+        "flooring": "MAT_IVORY_PORCELAIN",
+        "wall_paint": "MAT_WARM_CREAM",
+        "wood_finish": "MAT_LIGHT_OAK",
+        "kitchen_cabinet": "MAT_MATTE_IVORY",
+        "countertop": "MAT_WHITE_QUARTZLOOK",
+        "bathroom_tile": "MAT_STONELOOK_GRIP"
+      }
+    },
+    "premium": {
+      "title_en": "Walnut Harmony",
+      "title_ar": "تناغم الجوز",
+      "ids": {
+        "flooring": "MAT_PEARL_MARBLELOOK",
+        "wall_paint": "MAT_WARM_CREAM",
+        "wood_finish": "MAT_WALNUT",
+        "kitchen_cabinet": "MAT_WALNUT_CABINET",
+        "countertop": "MAT_WHITE_QUARTZLOOK",
+        "bathroom_tile": "MAT_GREY_PORCELAIN"
+      }
+    },
+    "luxury": {
+      "title_en": "Modern Pearl",
+      "title_ar": "اللؤلؤ العصري",
+      "ids": {
+        "flooring": "MAT_PEARL_MARBLELOOK",
+        "wall_paint": "MAT_SOFT_GREY",
+        "wood_finish": "MAT_DARK_WALNUT",
+        "kitchen_cabinet": "MAT_CHARCOAL",
+        "countertop": "MAT_IVORY_MARBLELOOK",
+        "bathroom_tile": "MAT_WHITE_MARBLELOOK"
+      }
+    }
+  }
+}

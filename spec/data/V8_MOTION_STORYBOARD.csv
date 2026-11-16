@@ -1,0 +1,13 @@
+id,from,to,choreography,duration_ms_draft,interrupt,reduced_motion,low_end_fallback
+M01,Landing,Tower explorer,title reveal / ready-to-explore,360-650 after first ready,no forced autoplay,quick fade/content,gentle tower reveal
+M02,Tower orbit,Floor hover,gentle damping and focus,60-140 feedback,user drag retarget,minimal highlight,preserve target
+M03,Tower,Selected floor,rotate-orient + lift/focus,650-1100,retarget from current pose,snap semantic floor focus,placeholder if geometry delayed
+M04,Floor cutaway,Selected unit,directional zoom and dollhouse,650-1100,retarget unit safely,simple highlight + immediate plan,avoid opening full model
+M05,Unit dollhouse,Living room,collision-safe spline via doorway,650-1400,interrupt with freewalk,static room anchor,short cut if no safe path
+M06,Living room,Kitchen,gentle doorway-path camera motion,650-1400,retarget from pose,immediate room scene,interior placeholder
+M07,Living room,Material swap,prefetched texture soft reveal,160-320,latest material wins,instant correct material,atomic direct swap
+M08,Tour guided,Tour freewalk,matched camera/target + velocity handoff,180-450,stop guided motion,direct control pose,keep collision boundaries
+M09,Apartment,Floor 10 pool,semantic transit with short veil,300-600,cancel back to unit,instant facility fact and 2D plan,show preview until ready
+M10,Daylight noon,Dusk lighting,progressive color/light transition,600-1200,latest preset wins,quick crossfade,reduce particles/shadows
+M11,3D explorer,AI bottom sheet,translate+opacity overlay,180-320,gesture dismiss,instant sheet visible,no heavy blur
+M12,Amenity,Return to tower,reorient to remembered exterior anchor,360-850,retarget from pose,direct exterior selection,Lite safe return

@@ -1,0 +1,1 @@
+run_id,date,browser,os,device,device_is_real,network,quality_mode,scene,load_shell_s,lcp_s,inp_ms,cls,scene_visible_s,fps_median,fps_p95_frame_time_ms,gpu_context_loss,peak_memory_mb,data_transferred_mb,thermal_minutes,status,evidence

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 7,
+  "title": "V7 engineering budget and release quality proposal",
+  "status": "PROPOSED_NOT_VERIFIED",
+  "coreWebVitalsP75Good": {
+    "LCP_seconds_max": 2.5,
+    "INP_ms_max": 200,
+    "CLS_max": 0.1
+  },
+  "benchmarkGuidance": {
+    "desktopBalancedTargetFpsMin": 45,
+    "desktopStretchFps": 60,
+    "midrangeMobileTargetFpsMin": 30,
+    "thermalDurationMinutesMin": 5,
+    "sampleFrameTimeP95": true,
+    "emulatorIsNotPhysicalDevice": true
+  },
+  "releaseGates": [
+    "G1_architecture_accuracy",
+    "G2_pbr_parity",
+    "G3_progressive_performance",
+    "G4_camera_comfort",
+    "G5_recovery",
+    "G6_visual_regression",
+    "G7_monitoring_privacy"
+  ],
+  "assurancePolicy": {
+    "allTestsInitiallyNotRun": true,
+    "noFalseCertifications": true,
+    "HiggsfieldOptional": true,
+    "canonicalFactsOnly": true,
+    "consumer3DFreewalkWithoutHiggsfield": true,
+    "publicSiteMcpApiCalls": false
+  },
+  "progressiveAssetRules": {
+    "coreNavigationBefore3D": true,
+    "loadActiveSceneOnly": true,
+    "responsiveImageFormats": [
+      "AVIF",
+      "WebP"
+    ],
+    "compressedMeshesCandidates": [
+      "Meshopt",
+      "Draco"
+    ],
+    "gpuTexturesCandidates": [
+      "KTX2"
+    ],
+    "releaseCachedGPUAssetsOnSceneSwitch": true,
+    "lowEnd2DFallbackAlwaysAvailable": true
+  },
+  "geometryRules": {
+    "units": "meters",
+    "realWorldLocationKnown": false,
+    "roomDimensionsMeasured": false,
+    "areaSources": [
+      "approved_CAD",
+      "approved_author_geometry_audit"
+    ],
+    "noGuessOnMeasurements": true
+  }
+}

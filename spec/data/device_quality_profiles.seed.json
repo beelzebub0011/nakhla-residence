@@ -1,0 +1,100 @@
+{
+  "notice": "Starting hypotheses, not guaranteed FPS/transfer results. Claude must measure and tune on tested devices.",
+  "default": "auto",
+  "tiers": [
+    {
+      "id": "lite",
+      "label": "Accessible Lite",
+      "webgl": false,
+      "maxDpr": 0,
+      "geometryLod": null,
+      "textureMaxPx": 0,
+      "weatherParticles": false,
+      "realtimeShadows": false,
+      "ssao": false,
+      "animatedVegetation": false,
+      "walk": "2D plan and room hotspot only"
+    },
+    {
+      "id": "low",
+      "label": "Battery Saver",
+      "webgl": true,
+      "maxDpr": 1.0,
+      "geometryLod": "low",
+      "textureMaxPx": 512,
+      "weatherParticles": false,
+      "realtimeShadows": false,
+      "ssao": false,
+      "animatedVegetation": false,
+      "walk": "tap destinations/guide"
+    },
+    {
+      "id": "balanced",
+      "label": "Balanced",
+      "webgl": true,
+      "maxDpr": 1.3,
+      "geometryLod": "medium",
+      "textureMaxPx": 1024,
+      "weatherParticles": false,
+      "realtimeShadows": "single economical",
+      "ssao": false,
+      "animatedVegetation": false,
+      "walk": "guided+budgeted free walk"
+    },
+    {
+      "id": "high",
+      "label": "High",
+      "webgl": true,
+      "maxDpr": 1.8,
+      "geometryLod": "high",
+      "textureMaxPx": 2048,
+      "weatherParticles": "limited",
+      "realtimeShadows": "selective",
+      "ssao": "optional measured",
+      "animatedVegetation": true,
+      "walk": "full in loaded rooms"
+    },
+    {
+      "id": "ultra",
+      "label": "Ultra (opt in)",
+      "webgl": true,
+      "maxDpr": 2.0,
+      "geometryLod": "high",
+      "textureMaxPx": 2048,
+      "weatherParticles": "limited",
+      "realtimeShadows": "selective",
+      "ssao": "optional measured",
+      "animatedVegetation": true,
+      "walk": "full in loaded rooms"
+    }
+  ],
+  "adaptiveController": {
+    "sampleWindowSeconds": 5,
+    "degradeAfterContinuousSlowWindows": 2,
+    "upgradeAfterStableFastWindows": 8,
+    "neverChangeMidTransition": true,
+    "preserveState": [
+      "activeFloorId",
+      "activeUnitId",
+      "activeRoomId",
+      "materialOverrides",
+      "timeMinutes",
+      "seasonId",
+      "weatherId",
+      "cameraPreset"
+    ],
+    "honorUserManualTier": true
+  },
+  "budgetStartingHypotheses": {
+    "firstShellTransferMB": 1.5,
+    "firstLowMidExteriorAssetsMB": "3-6",
+    "lowMidZoneMB": "3-8",
+    "highZoneMB": "8-15",
+    "lowMidWalkFPSGoal": 30,
+    "desktopFrameRateGoal": "45-60 if measured feasible",
+    "maxLCPSecondsAtFieldP75": 2.5,
+    "maxINPMillisecondsAtFieldP75": 200,
+    "maxCLSAtFieldP75": 0.1,
+    "caution": "These are targets, never guaranteed measurements."
+  }
+}

@@ -1,0 +1,32 @@
+﻿key,ar-DRAFT,en-DRAFT,ckb-DRAFT_UNVERIFIED,zh-Hans-DRAFT_UNVERIFIED,context,reviewer,status
+v5.sectionExplore,استكشف,Explore,بگەڕێ,探索,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.sectionTour,تجوّل,Tour,گەشت بکە,漫游,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.sectionDesign,صمّم,Design,دیزاین بکە,设计,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.sectionAmenities,المرافق,Amenities,خزمەتگوزارییەکان,配套设施,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.selectApartment,اختر شقتك,Choose an Apartment,شوقەکەت هەڵبژێرە,选择公寓,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.enterRoom,ادخل الغرفة,Enter Room,بچۆ ژوورەوە,进入房间,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.editFinishes,تغيير التشطيبات,Edit Finishes,گۆڕینی تەواوکاریکان,更换饰面,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.visitAmenities,استكشف المرافق,Explore Amenities,خزمەتگوزارییەکان ببینە,探索配套设施,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.findMyApartment,لقِّ لي شقة مناسبة,Find My Apartment,شوقەیەکی گونجاوم بۆ بدۆزەوە,寻找适合我的公寓,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.compareUnits,قارن شقتين,Compare Two Apartments,دوو شوقە بەراورد بکە,比较两套公寓,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.sunAndView,الشمس والإطلالة,Sun & View,خۆر و دیمەن,日照与景观,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.conceptualView,إطلالة تصورية وليست صورة حقيقية للموقع,"Illustrative view, not actual site photography",دیمەنی وێناکراوە، نەک وێنەی ڕاستەقینەی شوێن,概念示意景观，并非真实现场照片,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.illustrativeSun,محاكاة شمس توضيحية وغير معتمدة هندسياً,"Illustrative sunlight simulation, not an engineering study",هاوشێوەسازییەکی ڕوونکردنەوەیی تیشکی خۆرە، نەک لێکۆڵینەوەی ئەندازیاری,示意性日照模拟，并非工程分析,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.dayInNakhla,يوم في نخلة,A Day in Nakhla,ڕۆژێک لە نەخلە,在纳赫拉的一天,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.styleSuggestions,اقتراحات تنسيق,Style Suggestions,پێشنیاری دیزاین,风格建议,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.measureRoom,قِس المساحة,Measure Room,پێوانەی ژوور بگرە,测量房间,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.furnishing,جرّب الأثاث,Try Furniture,کەلوپەل تاقی بکەرەوە,试摆家具,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.architectTools,أدوات المهندس,Architect Tools,ئامرازە ئەندازیارییەکان,建筑工具,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.presentation,عرض للشركات,Presentation Mode,دۆخی پێشکەشکردن,演示模式,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.myApartment,شقتي,My Apartment,شوقەکەم,我的公寓,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.shareDesign,شارك تصميمك,Share Your Design,دیزاینەکەت هاوبەش بکە,分享设计,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.moreTools,أدوات إضافية,More Tools,ئامرازە زیاتر,更多工具,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.exitMode,الخروج من الوضع,Exit Mode,چوونەدەرەوە لە دۆخ,退出模式,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.experimental,ميزة تجريبية,Experimental Feature,تایبەتمەندییەکی تاقیکاری,实验性功能,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.notReady,الميزة غير متاحة في هذا النموذج,Not available in this demo,ئەم تایبەتمەندییە لەم نموونەیەدا بەردەست نییە,此演示中暂不可用,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.storySunrise,صباح البلكونة,Balcony Sunrise,بەیانی بالکۆن,阳台日出,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.storyLiving,المعيشة والتشطيبات,Living & Finishes,ژووری دانیشتن و تەواوکاریکان,客厅与饰面,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.storyWellness,وقت الرياضة والسباحة,Wellness Time,کاتی وەرزش و مەلەوانی,运动与泳池,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.storyCafe,قهوة الغروب,Sunset Café,قاوەی خۆرئاوابوون,日落咖啡馆,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.storyNight,البناية ليلاً,The Tower at Night,باڵەخانەکە لە شەودا,夜景大楼,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED
+v5.recommendationReason,سبب الترشيح,Why this matches,هۆکاری ئەم پێشنیارە,推荐理由,V5 sectioned UI; verify terminology and render,,REVIEW_NEEDED

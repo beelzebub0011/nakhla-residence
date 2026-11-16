@@ -1,0 +1,66 @@
+{
+  "captured": "2026-11-14T02:49:28.969Z",
+  "build": "vite preview 127.0.0.1:4173",
+  "shots": [
+    {
+      "name": "pricing_3d_en_list",
+      "hash": "#/en/explore?pr=1",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_3d_en_unit07B",
+      "hash": "#/en/explore?f=F07&u=U07B&v=unit&pr=1",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_3d_ar_unit_panel",
+      "hash": "#/ar/explore?f=F07&u=U07B&v=unit",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_photo_ar_scene_chip",
+      "hash": "#/ar/visual/B_living",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_photo_ar_sheet",
+      "hash": "#/ar/visual/B_living?pr=U05B",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_photo_en_home",
+      "hash": "#/en/visual/home",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_photo_ckb_sheet",
+      "hash": "#/ckb/visual/home?pr=1",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_photo_zh_sheet",
+      "hash": "#/zh/visual/home?pr=U09B",
+      "viewport": "1440x900",
+      "errors": []
+    },
+    {
+      "name": "pricing_phone_ar_3d",
+      "hash": "#/ar/explore?f=F04&u=U04A&v=unit&pr=1",
+      "viewport": "390x844 mobile",
+      "errors": []
+    },
+    {
+      "name": "pricing_phone_en_photo",
+      "hash": "#/en/visual/A_hall?pr=U04A",
+      "viewport": "390x844 mobile",
+      "errors": []
+    }
+  ]
+}

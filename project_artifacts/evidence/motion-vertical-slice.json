@@ -1,0 +1,129 @@
+{
+  "capturedAt": "2026-11-16T05:30:27.294Z",
+  "tool": "Playwright + Google Chrome (headless, GPU via ANGLE/D3D11), production build",
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 (0x00002507) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "dpr": 1,
+    "viewport": "1366x768"
+  },
+  "tier": "high",
+  "materialAckMs": 74,
+  "frames": {
+    "n": 900,
+    "p50": 7,
+    "p95": 13.9,
+    "p99": 14,
+    "max": 62.6,
+    "hitches50": 1,
+    "fpsMedian": 142.9
+  },
+  "transitions": [
+    {
+      "id": "reset_camera",
+      "kind": "orbit",
+      "durationMs": 894,
+      "interrupted": false,
+      "reduced": false,
+      "n": 111,
+      "p50": 7,
+      "p95": 13.9,
+      "p99": 14,
+      "max": 14.1,
+      "hitches50": 0,
+      "fpsMedian": 142.9
+    },
+    {
+      "id": "M03_tower_to_floor",
+      "kind": "orbit",
+      "durationMs": 1099,
+      "interrupted": false,
+      "reduced": false,
+      "n": 140,
+      "p50": 7,
+      "p95": 13.9,
+      "p99": 27.8,
+      "max": 27.8,
+      "hitches50": 0,
+      "fpsMedian": 142.9
+    },
+    {
+      "id": "M04_floor_to_unit",
+      "kind": "orbit",
+      "durationMs": 806,
+      "interrupted": false,
+      "reduced": false,
+      "n": 103,
+      "p50": 7,
+      "p95": 13.9,
+      "p99": 14,
+      "max": 27.8,
+      "hitches50": 0,
+      "fpsMedian": 142.9
+    },
+    {
+      "id": "M05_unit_to_room",
+      "kind": "path",
+      "durationMs": 1395,
+      "interrupted": false,
+      "reduced": false,
+      "n": 193,
+      "p50": 7,
+      "p95": 7.1,
+      "p99": 20.8,
+      "max": 20.9,
+      "hitches50": 0,
+      "fpsMedian": 142.9
+    },
+    {
+      "id": "M05r_room_to_dollhouse",
+      "kind": "path",
+      "durationMs": 1199,
+      "interrupted": false,
+      "reduced": false,
+      "n": 164,
+      "p50": 7,
+      "p95": 13.7,
+      "p99": 14,
+      "max": 14,
+      "hitches50": 0,
+      "fpsMedian": 142.9
+    },
+    {
+      "id": "M04r_to_floor",
+      "kind": "orbit",
+      "durationMs": 997,
+      "interrupted": false,
+      "reduced": false,
+      "n": 126,
+      "p50": 7,
+      "p95": 13.9,
+      "p99": 14,
+      "max": 21,
+      "hitches50": 0,
+      "fpsMedian": 142.9
+    },
+    {
+      "id": "M12_return_to_tower",
+      "kind": "orbit",
+      "durationMs": 946,
+      "interrupted": false,
+      "reduced": false,
+      "n": 117,
+      "p50": 7,
+      "p95": 14,
+      "p99": 14,
+      "max": 14,
+      "hitches50": 0,
+      "fpsMedian": 142.9
+    }
+  ],
+  "stats": {
+    "tripsStarted": 7,
+    "tripsCompleted": 7,
+    "retargets": 0,
+    "cuts": 0,
+    "cancelledByUser": 0
+  }
+}

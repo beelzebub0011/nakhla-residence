@@ -1,0 +1,44 @@
+{
+ "asphalt_02": {
+  "dimensions_mm": [
+   3000.000238418579,
+   3000
+  ],
+  "authors": "Rob Tuytel"
+ },
+ "rectangular_paving": {
+  "dimensions_mm": [
+   2000,
+   2000
+  ],
+  "authors": "Dimitrios Savva"
+ },
+ "concrete_pavement": {
+  "dimensions_mm": [
+   1800.0000715255737,
+   1800.0000715255737
+  ],
+  "authors": "Charlotte Baglioni"
+ },
+ "painted_plaster_wall": {
+  "dimensions_mm": [
+   2000,
+   2000
+  ],
+  "authors": "Amal Kumar"
+ },
+ "palm_tree_bark": {
+  "dimensions_mm": [
+   1299.9999523162842,
+   1300.0000715255737
+  ],
+  "authors": "Dimitrios Savva, Rico Cilliers"
+ },
+ "sandstone_blocks_08": {
+  "dimensions_mm": [
+   3000,
+   3000
+  ],
+  "authors": "Rob Tuytel"
+ }
+}

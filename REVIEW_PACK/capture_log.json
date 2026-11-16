@@ -1,0 +1,216 @@
+{
+ "capturedAt": "2026-11-13T20:08:18.073Z",
+ "tool": "Playwright + installed Chrome (headless, GPU), production build",
+ "shots": [
+  {
+   "name": "gateway_ar_1440",
+   "url": "?e2e=1#/ar",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "gateway_en_1440",
+   "url": "?e2e=1#/en",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "gateway_ckb_1440",
+   "url": "?e2e=1#/ckb",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "gateway_zh_1440",
+   "url": "?e2e=1#/zh",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "gateway_ar_phone",
+   "url": "?e2e=1#/ar",
+   "viewport": "390x844 mobile",
+   "errors": []
+  },
+  {
+   "name": "3d_tower_ar",
+   "url": "?e2e=1#/ar/explore",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_tower_golden_en",
+   "url": "?e2e=1#/en/explore?t=1080",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_tower_night_en",
+   "url": "?e2e=1#/en/explore?t=1290",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_street_view_en",
+   "url": "?e2e=1#/en/explore?t=1165",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_floor_F04_en",
+   "url": "?e2e=1#/en/explore?f=F04&v=floor",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_unit_U04A_ar",
+   "url": "?e2e=1#/ar/explore?f=F04&u=U04A&v=unit",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_room_A_living_en",
+   "url": "?e2e=1#/en/tour?f=F04&u=U04A&r=A.living&v=room&m=guided",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_room_A_kitchen_night_en",
+   "url": "?e2e=1#/en/tour?f=F04&u=U04A&r=A.kitchen&v=room&m=guided&t=1290",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_room_B_living_en",
+   "url": "?e2e=1#/en/tour?f=F04&u=U04B&r=B.living&v=room&m=guided",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_lobby_en",
+   "url": "?e2e=1#/en/amenities?f=G&r=zone.lobby_hall&v=room&m=guided",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_pool_en",
+   "url": "?e2e=1#/en/amenities?f=F10&r=zone.pool&v=room&m=guided",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_terrace_dusk_en",
+   "url": "?e2e=1#/en/amenities?f=F11&r=zone.terrace&v=room&m=guided&t=1165",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_tower_ckb",
+   "url": "?e2e=1#/ckb/explore",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_tower_zh",
+   "url": "?e2e=1#/zh/explore",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "3d_tower_phone_ar",
+   "url": "?e2e=1#/ar/explore",
+   "viewport": "390x844 mobile",
+   "errors": []
+  },
+  {
+   "name": "3d_tower_tablet_en",
+   "url": "?e2e=1#/en/explore",
+   "viewport": "820x1180 mobile",
+   "errors": []
+  },
+  {
+   "name": "3d_ai_panel_en",
+   "url": "?e2e=1#/en/explore",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_home_ar",
+   "url": "?e2e=1#/ar/visual",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_home_en",
+   "url": "?e2e=1#/en/visual",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_street_arrival_dusk_en",
+   "url": "?e2e=1#/en/visual/street_arrival_dusk",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_street_entrance_night_en",
+   "url": "?e2e=1#/en/visual/street_entrance_night",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_exterior_golden_en",
+   "url": "?e2e=1#/en/visual/exterior_golden",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_lobby_night_en",
+   "url": "?e2e=1#/en/visual/lobby_night",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_living_golden_en",
+   "url": "?e2e=1#/en/visual/living_golden",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_B_bedroom3_en",
+   "url": "?e2e=1#/en/visual/B_bedroom3",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_A_master_bath_en",
+   "url": "?e2e=1#/en/visual/A_master_bath",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_pool_en",
+   "url": "?e2e=1#/en/visual/pool",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_terrace_dusk_en",
+   "url": "?e2e=1#/en/visual/terrace_dusk",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_shisha_lounge_en",
+   "url": "?e2e=1#/en/visual/shisha_lounge",
+   "viewport": "1440x900",
+   "errors": []
+  },
+  {
+   "name": "photo_scene_phone_ar",
+   "url": "?e2e=1#/ar/visual/street_arrival_dusk",
+   "viewport": "390x844 mobile",
+   "errors": []
+  }
+ ]
+}

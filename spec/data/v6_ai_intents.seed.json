@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 6,
+  "note": "Coverage contract and P0/P1 test definitions; lexical examples are not an implemented multilingual model.",
+  "intents": [
+    {
+      "id": "building_floors",
+      "purpose": "عدد الطوابق / floors / count",
+      "sourcePath": "project.floors",
+      "preferredContext": "building",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "floor_purpose",
+      "purpose": "وظيفة الطابق / what is on floor",
+      "sourcePath": "floor.category",
+      "preferredContext": "floor",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "unit_count",
+      "purpose": "عدد الشقق / how many units",
+      "sourcePath": "project.units",
+      "preferredContext": "building",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "unit_area",
+      "purpose": "مساحة الشقة / apartment square meters",
+      "sourcePath": "unitType.approx_area_sqm",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "concept_estimate"
+    },
+    {
+      "id": "room_area",
+      "purpose": "مساحة الغرفة / room m2",
+      "sourcePath": "room.geometry.area_m2",
+      "preferredContext": "room",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "room_length",
+      "purpose": "طول الغرفة / length",
+      "sourcePath": "room.dimensions_m.length",
+      "preferredContext": "room",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "room_width",
+      "purpose": "عرض الغرفة / width",
+      "sourcePath": "room.dimensions_m.width",
+      "preferredContext": "room",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "ceiling_height",
+      "purpose": "ارتفاع السقف / finished ceiling height",
+      "sourcePath": "room.geometry.ceilingClearHeight",
+      "preferredContext": "room",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "wall_measure",
+      "purpose": "طول الجدار / wall length",
+      "sourcePath": "surfaceGeometry.wallLength_m",
+      "preferredContext": "surface",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "window_measure",
+      "purpose": "قياس الشباك / window size",
+      "sourcePath": "openingSchedule.window",
+      "preferredContext": "surface",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "door_measure",
+      "purpose": "قياس الباب / doorway clearance",
+      "sourcePath": "openingSchedule.door",
+      "preferredContext": "surface",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "balcony_size",
+      "purpose": "مساحة البلكونة / balcony size",
+      "sourcePath": "room.geometry.area_m2",
+      "preferredContext": "room",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "bedroom_count",
+      "purpose": "عدد الغرف / bedrooms",
+      "sourcePath": "unitType.bedrooms",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "bathroom_count",
+      "purpose": "عدد الحمامات / bathrooms",
+      "sourcePath": "unitType.bathrooms",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "current_material",
+      "purpose": "شنو نوع هذا / selected material",
+      "sourcePath": "activeSurface.currentMaterialId",
+      "preferredContext": "surface",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "material_brand",
+      "purpose": "الشركة المصنعة / manufacturer",
+      "sourcePath": "material.manufacturer",
+      "preferredContext": "material",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "material_origin",
+      "purpose": "بلد المنشأ / country of origin",
+      "sourcePath": "material.country_of_origin",
+      "preferredContext": "material",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "material_dimensions",
+      "purpose": "أبعاد السيراميك / tile dimensions",
+      "sourcePath": "material.size",
+      "preferredContext": "material",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "material_finish",
+      "purpose": "نوع التشطيب / material finish",
+      "sourcePath": "material.appearance_description",
+      "preferredContext": "material",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "material_wet_safe",
+      "purpose": "مقاومة الانزلاق / slip rating",
+      "sourcePath": "material.technical_certification",
+      "preferredContext": "material",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "material_options",
+      "purpose": "بدائل المواد / material alternatives",
+      "sourcePath": "materialCatalog.categories",
+      "preferredContext": "surface",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "finish_package",
+      "purpose": "شنو البكج / finishing package",
+      "sourcePath": "finishPackages.packages",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "compare_packages",
+      "purpose": "الفرق بين البكجات / compare finishes",
+      "sourcePath": "finishPackages",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "compare_units",
+      "purpose": "قارن شقتين / compare apartments",
+      "sourcePath": "unitTypes",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "concept_estimate"
+    },
+    {
+      "id": "find_three_bedroom",
+      "purpose": "شقة ثلاث غرف / three-bedroom",
+      "sourcePath": "unitTypes.TYPE_B",
+      "preferredContext": "building",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "find_largest",
+      "purpose": "أكبر شقة / largest type",
+      "sourcePath": "unitTypes.approx_area_sqm",
+      "preferredContext": "building",
+      "defaultSourceStatus": "concept_estimate"
+    },
+    {
+      "id": "amenity_location",
+      "purpose": "وين الجيم والمسبح / amenities",
+      "sourcePath": "navigationManifest.amenityZones",
+      "preferredContext": "amenity",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "amenity_hours",
+      "purpose": "متى يفتح الكوفي / opening hours",
+      "sourcePath": "amenity.hours",
+      "preferredContext": "amenity",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "amenity_pool_depth",
+      "purpose": "عمق المسبح / pool depth",
+      "sourcePath": "amenity.poolDepth",
+      "preferredContext": "amenity",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "unit_price",
+      "purpose": "شكد السعر / price",
+      "sourcePath": "unit.price",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "unit_availability",
+      "purpose": "هل الشقة متوفرة / availability",
+      "sourcePath": "unit.liveAvailability",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "area_basis",
+      "purpose": "هل المساحة صافية / gross vs net",
+      "sourcePath": "unitType.area_basis",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "sunlight",
+      "purpose": "الشمس شلون تضرب / sunlight",
+      "sourcePath": "environmentSimulation",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "concept_estimate"
+    },
+    {
+      "id": "balcony_view",
+      "purpose": "الإطلالة / window view",
+      "sourcePath": "sceneView",
+      "preferredContext": "unit",
+      "defaultSourceStatus": "concept_estimate"
+    },
+    {
+      "id": "walk_to_room",
+      "purpose": "وديني الغرفة / navigate to room",
+      "sourcePath": "navigationManifest",
+      "preferredContext": "room",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "help_navigation",
+      "purpose": "شلون أتجول / how to move",
+      "sourcePath": "explorationModes",
+      "preferredContext": "global",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "translate_ui",
+      "purpose": "اللغات / language options",
+      "sourcePath": "localesManifest",
+      "preferredContext": "global",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "mute_help",
+      "purpose": "شلون الغي الصوت / mute sound",
+      "sourcePath": "audioPreferences",
+      "preferredContext": "global",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "creator_contact",
+      "purpose": "منو مسوي الموقع / creator",
+      "sourcePath": "creatorContact",
+      "preferredContext": "global",
+      "defaultSourceStatus": "demo_schema"
+    },
+    {
+      "id": "engineering_status",
+      "purpose": "هل مصادق / permits/structure",
+      "sourcePath": "project.designApproval",
+      "preferredContext": "building",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "spec_pdf",
+      "purpose": "ملف المواصفات / spec sheet",
+      "sourcePath": "documents",
+      "preferredContext": "material",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "furniture_fit",
+      "purpose": "يگدر يدخل السرير / furniture fit",
+      "sourcePath": "geometryAndFurniture",
+      "preferredContext": "room",
+      "defaultSourceStatus": "unknown"
+    },
+    {
+      "id": "accessibility",
+      "purpose": "هل المصاعد تكفي / elevator dimensions",
+      "sourcePath": "accessibilitySurvey",
+      "preferredContext": "building",
+      "defaultSourceStatus": "unknown"
+    }
+  ]
+}

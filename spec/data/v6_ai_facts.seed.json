@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 6,
+  "sourceOfTruth": "Derived illustratively from existing V5 seed data; cross-check actual runtime rather than copying these as static production constants.",
+  "projectFacts": [
+    {
+      "factId": "project_name",
+      "value": "NAKHLA RESIDENCE",
+      "status": "demo_schema",
+      "sourceFile": "data/tower_concept.seed.json",
+      "sourceField": "project.name_en"
+    },
+    {
+      "factId": "total_levels",
+      "value": 12,
+      "unit": "levels",
+      "status": "demo_schema",
+      "sourceFile": "data/tower_concept.seed.json",
+      "sourceField": "project.levels_total_including_ground"
+    },
+    {
+      "factId": "residential_levels",
+      "value": 9,
+      "unit": "levels",
+      "status": "demo_schema",
+      "sourceFile": "data/tower_concept.seed.json",
+      "sourceField": "project.residential_levels"
+    },
+    {
+      "factId": "units_total",
+      "value": 18,
+      "unit": "units",
+      "status": "demo_schema",
+      "sourceFile": "data/tower_concept.seed.json",
+      "sourceField": "project.residential_units_total"
+    },
+    {
+      "factId": "type_a_area",
+      "value": 125,
+      "unit": "m2",
+      "status": "concept_estimate",
+      "sourceFile": "data/tower_concept.seed.json",
+      "sourceField": "unitTypes[TYPE_A].approx_area_sqm"
+    },
+    {
+      "factId": "type_b_area",
+      "value": 145,
+      "unit": "m2",
+      "status": "concept_estimate",
+      "sourceFile": "data/tower_concept.seed.json",
+      "sourceField": "unitTypes[TYPE_B].approx_area_sqm"
+    },
+    {
+      "factId": "pool_floor",
+      "value": "F10",
+      "status": "demo_schema",
+      "sourceFile": "data/navigation_manifest.seed.json",
+      "sourceField": "amenityZones.F10"
+    },
+    {
+      "factId": "restaurant_floor",
+      "value": "F11",
+      "status": "demo_schema",
+      "sourceFile": "data/navigation_manifest.seed.json",
+      "sourceField": "amenityZones.F11"
+    }
+  ],
+  "missingFacts": [
+    {
+      "factId": "living_room_length",
+      "value": null,
+      "status": "unknown",
+      "reason": "not measured or geometry authored"
+    },
+    {
+      "factId": "living_room_area",
+      "value": null,
+      "status": "unknown",
+      "reason": "no audited room polygon"
+    },
+    {
+      "factId": "room_ceiling_clear_height",
+      "value": null,
+      "status": "unknown",
+      "reason": "not provided; floor-to-floor differs"
+    },
+    {
+      "factId": "door_width",
+      "value": null,
+      "status": "unknown",
+      "reason": "opening schedule not supplied"
+    },
+    {
+      "factId": "window_width",
+      "value": null,
+      "status": "unknown",
+      "reason": "opening schedule not supplied"
+    },
+    {
+      "factId": "supplier",
+      "value": null,
+      "status": "unknown",
+      "reason": "sample materials are concepts"
+    },
+    {
+      "factId": "tile_size",
+      "value": null,
+      "status": "unknown",
+      "reason": "not supported by catalog"
+    },
+    {
+      "factId": "tile_wet_rating",
+      "value": null,
+      "status": "unknown",
+      "reason": "no accredited product data"
+    },
+    {
+      "factId": "unit_price",
+      "value": null,
+      "status": "unknown",
+      "reason": "fictional project"
+    },
+    {
+      "factId": "availability",
+      "value": null,
+      "status": "unknown",
+      "reason": "fictional project"
+    },
+    {
+      "factId": "pool_depth",
+      "value": null,
+      "status": "unknown",
+      "reason": "no approved pool design"
+    },
+    {
+      "factId": "cafe_opening_hours",
+      "value": null,
+      "status": "unknown",
+      "reason": "fictional amenity"
+    }
+  ]
+}

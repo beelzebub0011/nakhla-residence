@@ -1,0 +1,21 @@
+﻿shot_id,scene,purpose,package_id,day_night,camera_pose_id,planned_file,rendered_verified,license_status
+SH01,building,Exterior hero,standard,day,CAM_BUILDING_01,public/assets/renders/sh01_building.webp,NO,NOT_YET_CREATED
+SH02,building,Exterior daylight,standard,day,CAM_BUILDING_02,public/assets/renders/sh02_building.webp,NO,NOT_YET_CREATED
+SH03,building,Exterior sunset/night,standard,night,CAM_BUILDING_03,public/assets/renders/sh03_building.webp,NO,NOT_YET_CREATED
+SH04,lobby,Entry and reception,standard,day,CAM_LOBBY_04,public/assets/renders/sh04_lobby.webp,NO,NOT_YET_CREATED
+SH05,floorplate,Floor 04 overview,standard,day,CAM_FLOORPLATE_05,public/assets/renders/sh05_floorplate.webp,NO,NOT_YET_CREATED
+SH06,type_a,Type A furnished dollhouse,standard,day,CAM_TYPE_A_06,public/assets/renders/sh06_type_a.webp,NO,NOT_YET_CREATED
+SH07,living,Luxury living wide,standard,day,CAM_LIVING_07,public/assets/renders/sh07_living.webp,NO,NOT_YET_CREATED
+SH08,living,Material detail,standard,day,CAM_LIVING_08,public/assets/renders/sh08_living.webp,NO,NOT_YET_CREATED
+SH09,kitchen,Kitchen cabinet+countertop,standard,day,CAM_KITCHEN_09,public/assets/renders/sh09_kitchen.webp,NO,NOT_YET_CREATED
+SH10,master,Master bedroom,standard,day,CAM_MASTER_10,public/assets/renders/sh10_master.webp,NO,NOT_YET_CREATED
+SH11,bathroom,Bathroom tile detail,standard,day,CAM_BATHROOM_11,public/assets/renders/sh11_bathroom.webp,NO,NOT_YET_CREATED
+SH12,balcony,Balcony city backdrop illustrative,standard,day,CAM_BALCONY_12,public/assets/renders/sh12_balcony.webp,NO,NOT_YET_CREATED
+SH13,wellness_pool,Pool entry,standard,day,CAM_WELLNESS_POOL_13,public/assets/renders/sh13_wellness_pool.webp,NO,NOT_YET_CREATED
+SH14,wellness_gym,Gym floor,standard,day,CAM_WELLNESS_GYM_14,public/assets/renders/sh14_wellness_gym.webp,NO,NOT_YET_CREATED
+SH15,wellness_spa,Spa lounge,standard,night,CAM_WELLNESS_SPA_15,public/assets/renders/sh15_wellness_spa.webp,NO,NOT_YET_CREATED
+SH16,restaurant,Rooftop dining,standard,night,CAM_RESTAURANT_16,public/assets/renders/sh16_restaurant.webp,NO,NOT_YET_CREATED
+SH17,cafe,Coffee bar,standard,night,CAM_CAFE_17,public/assets/renders/sh17_cafe.webp,NO,NOT_YET_CREATED
+SH18,terrace,Panoramic terrace,standard,night,CAM_TERRACE_18,public/assets/renders/sh18_terrace.webp,NO,NOT_YET_CREATED
+SH19,material_board,Selections board,premium,day,CAM_MATERIAL_BOARD_19,public/assets/renders/sh19_material_board.webp,NO,NOT_YET_CREATED
+SH20,living,Matching package comparison,premium,day,CAM_LIVING_20,public/assets/renders/sh20_living.webp,NO,NOT_YET_CREATED

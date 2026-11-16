@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "visitorNavigation": "4_top_level_sections",
+  "cameraControllerSourceOfTruth": "explorationMode",
+  "activeSection": [
+    "explore",
+    "tour",
+    "design",
+    "amenities"
+  ],
+  "activeToolAllowlist": [
+    "none",
+    "smart_finder",
+    "apartment_compare",
+    "sun_view",
+    "xray_pro",
+    "camera_mode_picker",
+    "day_in_life",
+    "furniture_fit",
+    "measurements",
+    "material_inspector",
+    "finish_compare",
+    "style_suggestions",
+    "my_apartment",
+    "presentation_room",
+    "share_qr_export",
+    "ai_concierge",
+    "environment"
+  ],
+  "hasSeparatePresentationCameraController": false,
+  "maxComparedUnits": 2,
+  "unitIdsFromExistingCanonicalNavigation": true,
+  "noUnitsOn": [
+    "G",
+    "F10",
+    "F11"
+  ],
+  "userHistoryClearOnRouteChange": false,
+  "audioResetOnHardLoad": {
+    "masterEnabled": false,
+    "muted": true
+  },
+  "canonicalLocaleKeys": [
+    "ar",
+    "en",
+    "ckb",
+    "zh"
+  ],
+  "shareSchema": {
+    "version": 1,
+    "allowed": [
+      "projectId",
+      "floorId",
+      "unitId",
+      "roomId",
+      "materialChoiceIds",
+      "environmentPresetId",
+      "locale",
+      "cameraPresetId"
+    ],
+    "forbidden": [
+      "name",
+      "phone",
+      "email",
+      "visitorContact",
+      "notes",
+      "token",
+      "secret",
+      "trackingId",
+      "fullStateJSON"
+    ]
+  },
+  "fakeAvailabilityForbidden": true,
+  "fictionalFloorAreaMustBeDisclaimed": true,
+  "aiExternalRequestsDefaultOff": true,
+  "lightweightBefore3D": true,
+  "aiFactualAssistant": {
+    "contractVersion": 6,
+    "mandatoryTier": "P0",
+    "fourSectionsPreserved": true,
+    "groundedLocalKnowledge": true,
+    "externalLLM": {
+      "tier": "P2",
+      "defaultEnabled": false
+    },
+    "newRoomDimensionsDefault": null,
+    "showSourceStatus": true,
+    "supports2DLite": true
+  }
+}

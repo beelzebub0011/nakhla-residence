@@ -1,0 +1,23 @@
+# تقرير فحص V8 — صحة محتوى الحزمة فقط
+فحوصات الباكج الناجحة: 7 من 7
+حالة موقع الويب نفسه: لم يتم بناؤه هنا أو اختباره داخل متصفح.
+البوابات: V7 G1–G7 باقية + V8 G8 للـSmoothness.
+الـ QA: 652 حالة قديمة + 80 جديدة = 732؛ كل الحالات NOT_RUN.
+المسارات السينمائية المطلوب اختبارها: 12.
+المدخلات الأساسية: أربعة سكشنات، 4 لغات، 4 أوضاع للتجوال، الصوت OFF، AI حقيقة مو تخمين.
+Higgsfield اختياري وممنوع تفعيله المدفوع بدون موافقة.
+تم تعديل فحوصات الإصدارات القديمة فقط للسماح بوجود ترويسة V8 وعدد حالات إضافي؛ مع بقاء التحقق من عقود الإصدارات السابقة.
+
+نتائج الفحوصات:
+VALIDATE_PACKAGE.py: PACKAGE VALIDATION PASSED: 12 levels, 9 residential levels, 18 units, 6 categories, 18 concept materials, 3 consistent finish packages.
+IMPORTANT: This checks concept DATA and FILE PRESENCE, not whether the real website or 3D models have been built.
+VALIDATE_V3_PACKAGE.py: V3 DATA VALIDATION PASSED: creator contact exact, one authoritative controller mode, 4 exploration modes + Lite, bilingual UI labels, V3 docs and QA cases consistent.
+NOT A WEBSITE TEST. All real-browser, Blender and device tests must be executed by Claude after implementation.
+VALIDATE_V4_PACKAGE.py: V4 PACKAGE FIXTURE VALIDATION PASSED: four key-complete draft locales; RTL/LTR tags; silent-by-default opt-in audio; QA status NOT_RUN; V4 instructions present.
+This DOES NOT validate the actual website, sound behavior, translated meaning, native editorial review, WebGL performance, or device usability.
+VALIDATE_V5_PACKAGE.py: V5 FIXTURE VALIDATION PASSED: four sections, 19 roadmap flags, 73 NEW QA tests, 732 TOTAL QA definitions, four translation DRAFT dictionaries and original contact/floor topology.
+NOT a built product test or certified translation review. Test actual browsers/devices and request native language proofreading before production claims.
+VALIDATE_V6_PACKAGE.py: V6 STATIC FIXTURE CHECK PASSED: 43 intents, 91 new NOT_RUN tests, 732 total NOT_RUN test definitions, four draft locales, canonical project data preserved.
+This does NOT certify implementation, translation, model accuracy, field measurements, browser/device tests, or production readiness.
+VALIDATE_V7_PACKAGE.py: V7 SPEC PACK CHECK PASSED: 732 defined NOT_RUN tests; 102 new cases; 7 release gates; optional provider, V6 data preserved. No site runtime tests performed.
+VALIDATE_V8_PACKAGE.py: V8 STATIC PACK PASS | 8 quality gates specified | 12 motion paths | 80 new tests | 732 total NOT_RUN | NO actual site/browser tests performed.

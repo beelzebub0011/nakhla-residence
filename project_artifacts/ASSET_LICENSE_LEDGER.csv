@@ -1,0 +1,21 @@
+asset,type,source,version,licence,shipped_to_visitors,notes
+Tower / floor plans / furniture geometry,original,src/domain/*.ts (authored for this project),-,© 2026 Rashid Omar Mohammed,yes,Generated at runtime from code (modelkit.ts / pieces.ts / fitments.ts); no downloaded models
+Porcelain / paint / laminate / stone finishes + abstract artworks,original procedural,src/engine/texgen.ts,-,© 2026 Rashid Omar Mohammed,yes,Synthesised on device; no supplier or brand implied
+Palm fronds / sky / rain / stars,original procedural,src/engine/site.ts + environment.ts,-,© 2026 Rashid Omar Mohammed,yes,Sky shader is the three.js Sky addon (MIT)
+Brand mark (palm frond),original vector,src/ui/Icon.tsx + public/logo-mark.svg,-,© 2026 Rashid Omar Mohammed,yes,No trademark registration claimed
+UI icons,original vector,src/ui/Icon.tsx,-,© 2026 Rashid Omar Mohammed,yes,No icon library bundled
+Ambient sound (opt-in only),original synthesised,src/audio/ambience.ts,-,© 2026 Rashid Omar Mohammed,on explicit opt-in only,Web Audio synthesis; no audio files
+Gallery stills (12),original render,blender/build_nakhla.py -> public/renders,Blender 5.2.3 LTS Cycles,© 2026 Rashid Omar Mohammed,yes,Same concept geometry; labelled as renders not photographs
+nakhla_tower.blend / .glb,original derived,blender/,Blender 5.2.3,© 2026 Rashid Omar Mohammed,no (deliverable),Editable source + glTF 2.0 export
+react / react-dom,npm package,npmjs.com,19.3.1,MIT,yes,
+three,npm package,npmjs.com,0.187.0,MIT,yes,Includes Sky / RoundedBoxGeometry / BufferGeometryUtils addons
+zustand,npm package,npmjs.com,5.1.0,MIT,yes,
+Noto Sans Arabic (variable),font,@fontsource-variable/noto-sans-arabic,5.3.0,OFL-1.1,yes,Arabic and Sorani UI text
+Manrope (variable),font,@fontsource-variable/manrope,5.3.0,OFL-1.1,yes,Latin UI text
+Cormorant Garamond 500,font,@fontsource/cormorant-garamond,5.3.0,OFL-1.1,yes,Latin display headings
+Chinese glyphs,system font,visitor operating system (PingFang / Microsoft YaHei / Noto Sans SC),-,OS licence,no (not bundled),Falls back to the system font
+vite / plugin-react / typescript / vitest / playwright / @types,dev tooling,npmjs.com,see package.json,MIT / Apache-2.0,no,Build and test only
+spec/references/reel_reference.mp4 + frames,third-party reference,supplied by owner,-,not ours,NO,Interaction inspiration only; not copied; not published; not in dist
+PBR texture scans (11 sets used: wood / veneer / leather / linen / velvet / tartan / stone / plaster),third-party,polyhaven.com — see project_artifacts/POLYHAVEN_ASSETS.csv,1K JPG,CC0 1.0 (public domain),yes (re-encoded in public/textures; 8.7 MB),Downloaded 2026-11-12 with owner approval; authors credited in POLYHAVEN_ASSETS.csv; tinted sets are converted to neutral luminance
+Night sky HDRI satara_night,third-party,polyhaven.com,2K HDR,CC0 1.0 (public domain),no (Blender lighting only),Two more HDRIs and one fabric set were downloaded but are not used — listed in POLYHAVEN_ASSETS.csv
+Baked indirect-light atlas,original (computed),blender/build_nakhla.py --bake,-,© 2026 Rashid Omar Mohammed,yes (public/lightmaps),Cycles bake of the project's own geometry

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 5,
+  "conceptOnly": true,
+  "soundDefaultOff": true,
+  "userGestureToStart": true,
+  "restorationPolicy": "On Cancel/Exit, restore previous floor/unit/room/finishes/camera/time/weather unless user explicitly applies chapter viewpoint",
+  "chapters": [
+    {
+      "id": "sunrise_balcony",
+      "chapterLabelKey": "v5.storySunrise",
+      "scene": "unit_balcony",
+      "timeMinutes": 390,
+      "assetPolicy": "prepared_bookmark_or_lite_still"
+    },
+    {
+      "id": "living_finish",
+      "chapterLabelKey": "v5.storyLiving",
+      "scene": "unit_living",
+      "timeMinutes": 600,
+      "assetPolicy": "prepared_bookmark_or_lite_still"
+    },
+    {
+      "id": "wellness",
+      "chapterLabelKey": "v5.storyWellness",
+      "scene": "F10_wellness",
+      "timeMinutes": 900,
+      "assetPolicy": "prepared_bookmark_or_lite_still"
+    },
+    {
+      "id": "sunset_cafe",
+      "chapterLabelKey": "v5.storyCafe",
+      "scene": "F11_cafe",
+      "timeMinutes": 1050,
+      "assetPolicy": "prepared_bookmark_or_lite_still"
+    },
+    {
+      "id": "night_exterior",
+      "chapterLabelKey": "v5.storyNight",
+      "scene": "tower_exterior",
+      "timeMinutes": 1230,
+      "assetPolicy": "prepared_bookmark_or_lite_still"
+    }
+  ],
+  "preload": "next chapter only",
+  "skipPauseExit": true,
+  "reducedMotionAlternative": "localized captions + static stills"
+}

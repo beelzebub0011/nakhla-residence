@@ -1,0 +1,12 @@
+[
+ {
+  "name": "home_day_with_music",
+  "peakDb": -14.4,
+  "rmsDb": -28.8
+ },
+ {
+  "name": "music_only",
+  "peakDb": -17,
+  "rmsDb": -32.5
+ }
+]

@@ -1,0 +1,17 @@
+term_id,ar_source,en_reference,ckb_candidate,zh_candidate,mandatory_review
+building,البناية,Building,,,YES
+floor,الطابق,Floor,,,YES
+unit,الشقة,Apartment / Unit,,,YES
+living_room,غرفة المعيشة,Living room,,,YES
+bedroom,غرفة النوم,Bedroom,,,YES
+balcony,الشرفة,Balcony,,,YES
+finishes,مواد التشطيب,Finishing materials,,,YES
+porcelain,بورسلان,Porcelain tile,,,YES
+natural_wood,خشب طبيعي,Natural wood,,,YES
+marble,رخام,Marble,,,YES
+spa,سبا,Spa,,,YES
+swimming_pool,مسبح,Swimming pool,,,YES
+shisha_lounge,لاونج النراكيل,Shisha lounge,,,YES
+simulation_notice,محاكاة افتراضية,Simulated concept,,,YES
+sound_off,الصوت مطفأ,Sound Off,,,YES
+language,اللغة,Language,,,YES

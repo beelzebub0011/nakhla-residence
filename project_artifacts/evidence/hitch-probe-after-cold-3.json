@@ -1,0 +1,96 @@
+{
+ "capturedAt": "2026-11-13T16:45:13.469Z",
+ "cold": true,
+ "cycles": 20,
+ "frames": [
+  {
+   "dt": 86.4,
+   "phase": "c0:floor F02",
+   "newPrograms": 4,
+   "newTextures": 0,
+   "programNames": [
+    "ghost:stone_base physical,STANDARD,,highp,srgb,",
+    "amb:wallcore physical,STANDARD,,highp,srgb,",
+    "amb:door_leaf physical,STANDARD,,highp,srgb,",
+    "amb:frame physical,STANDARD,,highp,srgb,"
+   ],
+   "top": [
+    [
+     "engine.ensureInterior",
+     44.6
+    ],
+    [
+     "engine.projectLabels",
+     9.4
+    ],
+    [
+     "engine.onState",
+     0.7
+    ],
+    [
+     "engine.applyExplode",
+     0.4
+    ],
+    [
+     "gl.draw",
+     0.4
+    ],
+    [
+     "engine.pace",
+     0
+    ],
+    [
+     "engine.updateCine",
+     0
+    ],
+    [
+     "engine.updateSliders",
+     0
+    ]
+   ]
+  },
+  {
+   "dt": 79.6,
+   "phase": "c0:unit",
+   "newPrograms": 0,
+   "newTextures": 2,
+   "programNames": [],
+   "top": [
+    [
+     "gl.shader(sync)",
+     44.1
+    ],
+    [
+     "gl.texUpload",
+     12.3
+    ],
+    [
+     "engine.applyExplode",
+     0.5
+    ],
+    [
+     "engine.projectLabels",
+     0.2
+    ],
+    [
+     "gl.draw",
+     0.1
+    ],
+    [
+     "engine.updateCine",
+     0
+    ],
+    [
+     "engine.updateSliders",
+     0
+    ],
+    [
+     "gl.mipmap",
+     0
+    ]
+   ]
+  }
+ ],
+ "programs": 81,
+ "textures": 187
+}

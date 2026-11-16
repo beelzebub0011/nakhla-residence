@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 3,
+  "defaultMode": "property_explorer",
+  "modes": [
+    {
+      "id": "cinematic",
+      "labelAr": "جولة سينمائية",
+      "labelEn": "Cinematic Tour",
+      "autoCamera": true,
+      "controls": [
+        "start",
+        "pause",
+        "resume",
+        "chapters",
+        "skip",
+        "exit",
+        "mute"
+      ],
+      "requiresGestureToStart": true,
+      "reducedMotionAlternative": "chapter_stills"
+    },
+    {
+      "id": "guided",
+      "labelAr": "تجوال موجّه",
+      "labelEn": "Guided Tour",
+      "autoCamera": false,
+      "controls": [
+        "next_hotspot",
+        "previous_hotspot",
+        "map",
+        "back",
+        "help",
+        "exit"
+      ],
+      "mobileSupport": "tap_hotspots"
+    },
+    {
+      "id": "free_walk",
+      "labelAr": "تجوال حر",
+      "labelEn": "Free Walk",
+      "autoCamera": false,
+      "controls": [
+        "wasd",
+        "mouse_look",
+        "touch_look",
+        "tap_to_move",
+        "exit",
+        "help"
+      ],
+      "mobileSupport": "tap_to_move_or_optional_joystick",
+      "disabledWhereNoGeometry": true
+    },
+    {
+      "id": "property_explorer",
+      "labelAr": "استكشاف عقاري",
+      "labelEn": "Property Explorer",
+      "autoCamera": false,
+      "controls": [
+        "orbit",
+        "select_floor",
+        "select_unit",
+        "dollhouse",
+        "enter_room",
+        "back",
+        "reset"
+      ],
+      "mobileSupport": "touch_and_semantic_floor_list"
+    }
+  ],
+  "fallback": {
+    "id": "lite_2d",
+    "hasSemanticFloorUnitMaterialsGalleryContact": true,
+    "canClaim3DFreeWalk": false
+  },
+  "stateInvariant": "Mode changes preserve floorId, unitId, roomId, materialOverrides, weatherId, seasonId, timeMinutes, language and quality where compatible.",
+  "motionSafety": [
+    "reduced_motion",
+    "skip",
+    "cancel_old_animation",
+    "no_camera_roll",
+    "no_pointerlock_trap",
+    "collision_validated"
+  ]
+}

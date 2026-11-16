@@ -1,0 +1,34 @@
+{
+ "capturedAt": "2026-11-14T02:55:33.434Z",
+ "note": "live world (traffic moving), production build, Chrome headless with GPU (RTX 3050)",
+ "tower_1366": {
+  "frames": 863,
+  "p50": 6.9,
+  "p95": 7.6,
+  "p99": 8.2,
+  "max": 10,
+  "over50": 0,
+  "drawCalls": 577,
+  "triangles": 1431454
+ },
+ "street_dusk_1366": {
+  "frames": 863,
+  "p50": 6.9,
+  "p95": 7.6,
+  "p99": 8.2,
+  "max": 9.9,
+  "over50": 0,
+  "drawCalls": 622,
+  "triangles": 1478682
+ },
+ "tower_1920": {
+  "frames": 863,
+  "p50": 6.9,
+  "p95": 7.6,
+  "p99": 8.1,
+  "max": 8.4,
+  "over50": 0,
+  "drawCalls": 577,
+  "triangles": 1431454
+ }
+}

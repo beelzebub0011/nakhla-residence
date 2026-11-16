@@ -1,0 +1,214 @@
+{
+ "generatedBy": "tests/unit/model-validation.test.ts",
+ "note": "Footprint-level checks of the concept model (not a clash detection of a construction model).",
+ "report": [
+  {
+   "floor": "G",
+   "pieces": 27,
+   "meshes": 236,
+   "below": [],
+   "outside": [],
+   "overlaps": [],
+   "intended": [
+    {
+     "a": "G.core.stair_w.furn.stair_rail",
+     "b": "G.core.stair_w.furn.stair_rail",
+     "volume": 0.0266,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "G.core.stair_e.furn.stair_rail",
+     "b": "G.core.stair_e.furn.stair_rail",
+     "volume": 0.0266,
+     "why": "placed on a surface"
+    }
+   ]
+  },
+  {
+   "floor": "F04",
+   "pieces": 104,
+   "meshes": 835,
+   "below": [],
+   "outside": [],
+   "overlaps": [
+    {
+     "a": "F04.A.living.furn.sofa",
+     "b": "F04.A.living.furn.table",
+     "volume": 0.0012
+    }
+   ],
+   "intended": [
+    {
+     "a": "F04.core.stair_w.furn.stair_rail",
+     "b": "F04.core.stair_w.furn.stair_rail",
+     "volume": 0.0191,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F04.core.stair_e.furn.stair_rail",
+     "b": "F04.core.stair_e.furn.stair_rail",
+     "volume": 0.0191,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F04.A.living.furn.dining",
+     "b": "F04.A.living.furn.chair",
+     "volume": 0.0382,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.A.living.furn.dining",
+     "b": "F04.A.living.furn.chair",
+     "volume": 0.0478,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.A.living.furn.dining",
+     "b": "F04.A.living.furn.chair",
+     "volume": 0.0516,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.A.living.furn.dining",
+     "b": "F04.A.living.furn.chair",
+     "volume": 0.0389,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.A.living.furn.dining",
+     "b": "F04.A.living.furn.chair",
+     "volume": 0.0382,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.A.living.furn.dining",
+     "b": "F04.A.living.furn.chair",
+     "volume": 0.0478,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.B.living.furn.dining",
+     "b": "F04.B.living.furn.chair",
+     "volume": 0.0382,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.B.living.furn.dining",
+     "b": "F04.B.living.furn.chair",
+     "volume": 0.0478,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.B.living.furn.dining",
+     "b": "F04.B.living.furn.chair",
+     "volume": 0.0516,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.B.living.furn.dining",
+     "b": "F04.B.living.furn.chair",
+     "volume": 0.0389,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.B.living.furn.dining",
+     "b": "F04.B.living.furn.chair",
+     "volume": 0.0382,
+     "why": "chair tucked under the table"
+    },
+    {
+     "a": "F04.B.living.furn.dining",
+     "b": "F04.B.living.furn.chair",
+     "volume": 0.0478,
+     "why": "chair tucked under the table"
+    }
+   ]
+  },
+  {
+   "floor": "F10",
+   "pieces": 60,
+   "meshes": 383,
+   "below": [],
+   "outside": [],
+   "overlaps": [
+    {
+     "a": "F10.zone.spa.furn.lantern",
+     "b": "F10.zone.spa.furn.lantern",
+     "volume": 0.001
+    }
+   ],
+   "intended": [
+    {
+     "a": "F10.core.stair_w.furn.stair_rail",
+     "b": "F10.core.stair_w.furn.stair_rail",
+     "volume": 0.0262,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F10.core.stair_e.furn.stair_rail",
+     "b": "F10.core.stair_e.furn.stair_rail",
+     "volume": 0.0262,
+     "why": "placed on a surface"
+    }
+   ]
+  },
+  {
+   "floor": "F11",
+   "pieces": 75,
+   "meshes": 616,
+   "below": [],
+   "outside": [],
+   "overlaps": [
+    {
+     "a": "F11.zone.restaurant.furn.table",
+     "b": "F11.zone.restaurant.furn.plant",
+     "volume": 0.0038
+    }
+   ],
+   "intended": [
+    {
+     "a": "F11.core.stair_w.furn.stair_rail",
+     "b": "F11.core.stair_w.furn.stair_rail",
+     "volume": 0.0182,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F11.core.stair_e.furn.stair_rail",
+     "b": "F11.core.stair_e.furn.stair_rail",
+     "volume": 0.0182,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F11.zone.cafe.furn.backbar",
+     "b": "F11.zone.cafe.furn.espresso",
+     "volume": 0.163,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F11.zone.terrace.furn.table",
+     "b": "F11.zone.terrace.furn.lantern",
+     "volume": 0.0019,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F11.zone.terrace.furn.table",
+     "b": "F11.zone.terrace.furn.lantern",
+     "volume": 0.0019,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F11.zone.terrace.furn.table",
+     "b": "F11.zone.terrace.furn.lantern",
+     "volume": 0.0019,
+     "why": "placed on a surface"
+    },
+    {
+     "a": "F11.zone.terrace.furn.table",
+     "b": "F11.zone.terrace.furn.lantern",
+     "volume": 0.0019,
+     "why": "placed on a surface"
+    }
+   ]
+  }
+ ]
+}

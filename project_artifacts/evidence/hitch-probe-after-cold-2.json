@@ -1,0 +1,137 @@
+{
+ "capturedAt": "2026-11-13T16:43:38.204Z",
+ "cold": true,
+ "cycles": 20,
+ "frames": [
+  {
+   "dt": 70.1,
+   "phase": "c0:floor F02",
+   "newPrograms": 4,
+   "newTextures": 0,
+   "programNames": [
+    "ghost:stone_base physical,STANDARD,,highp,srgb,",
+    "amb:wallcore physical,STANDARD,,highp,srgb,",
+    "amb:door_leaf physical,STANDARD,,highp,srgb,",
+    "amb:frame physical,STANDARD,,highp,srgb,"
+   ],
+   "top": [
+    [
+     "engine.ensureInterior",
+     31.3
+    ],
+    [
+     "engine.projectLabels",
+     8.2
+    ],
+    [
+     "engine.onState",
+     0.7
+    ],
+    [
+     "gl.draw",
+     0.4
+    ],
+    [
+     "engine.applyExplode",
+     0.3
+    ],
+    [
+     "gl.shader",
+     0.1
+    ],
+    [
+     "engine.pace",
+     0
+    ],
+    [
+     "engine.updateCine",
+     0
+    ]
+   ]
+  },
+  {
+   "dt": 83.5,
+   "phase": "c0:unit",
+   "newPrograms": 0,
+   "newTextures": 2,
+   "programNames": [],
+   "top": [
+    [
+     "gl.shader(sync)",
+     34.2
+    ],
+    [
+     "gl.texUpload",
+     12.2
+    ],
+    [
+     "gl.draw",
+     0.6
+    ],
+    [
+     "engine.applyExplode",
+     0.5
+    ],
+    [
+     "engine.projectLabels",
+     0.3
+    ],
+    [
+     "gl.mipmap",
+     0.1
+    ],
+    [
+     "engine.updateSliders",
+     0.1
+    ],
+    [
+     "engine.updateCine",
+     0
+    ]
+   ]
+  },
+  {
+   "dt": 42.3,
+   "phase": "c0:home",
+   "newPrograms": 0,
+   "newTextures": 9,
+   "programNames": [],
+   "top": [
+    [
+     "gl.shader(sync)",
+     27.6
+    ],
+    [
+     "engine.applyFinishes",
+     2.2
+    ],
+    [
+     "engine.projectLabels",
+     0.4
+    ],
+    [
+     "gl.draw",
+     0.4
+    ],
+    [
+     "engine.applyExplode",
+     0.2
+    ],
+    [
+     "gl.texUpload",
+     0.1
+    ],
+    [
+     "engine.pace",
+     0
+    ],
+    [
+     "engine.updateCine",
+     0
+    ]
+   ]
+  }
+ ],
+ "programs": 81,
+ "textures": 187
+}

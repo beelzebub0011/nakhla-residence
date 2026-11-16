@@ -1,0 +1,17 @@
+﻿surface_id,room_id,material_category,suggested_blender_node,selection_notes,MVP_editable
+living.flooring,living,flooring,SURFACE_A_LIVING_FLOOR,3 flooring variants,yes
+living.north_wall,living,wall_paint,SURFACE_A_LIVING_WALL_N,3 wall finishes,yes
+living.feature_panel,living,wood_finish,SURFACE_A_LIVING_WOOD_ACCENT,3 walnut/oak panel finishes,yes
+kitchen.cabinet_fronts,kitchen,kitchen_cabinet,SURFACE_A_KITCHEN_CABINET,3 fronts,yes
+kitchen.countertop,kitchen,countertop,SURFACE_A_KITCHEN_COUNTER,3 stone-like countertops,yes
+kitchen.wall,kitchen,wall_paint,SURFACE_A_KITCHEN_WALL,3 wall finishes,yes
+master.flooring,master,flooring,SURFACE_A_MASTER_FLOOR,dry flooring only,yes
+master.wall,master,wall_paint,SURFACE_A_MASTER_WALL,3 wall finishes,yes
+master.feature_panel,master,wood_finish,SURFACE_A_MASTER_WOOD,3 wood finishes,yes
+bathroom.wall_tiles,bathroom,bathroom_tile,SURFACE_A_BATH_WALL_TILE,3 bath tile types,yes
+bathroom.floor_tiles,bathroom,bathroom_tile,SURFACE_A_BATH_FLOOR_TILE,only validated floor-safe variants,yes
+bathroom.vanity,bathroom,countertop,SURFACE_A_BATH_VANITY,3 surface alternatives,yes
+balcony.external_floor,balcony,outdoor_paving,SURFACE_A_BALCONY_FLOOR,OPTIONAL additional licensed product catalog,no
+living.sofa,living,furniture,OBJECT_A_LIVING_SOFA,noneditable in MVP,no
+pool.water,wellness,water_shader,SURFACE_WELLNESS_POOL_WATER,distinct shader non-commercial material,no
+exterior.stone,building,cladding,SURFACE_BLDG_STONE,building material inspector Phase 2,no

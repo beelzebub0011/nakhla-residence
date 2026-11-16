@@ -1,0 +1,32 @@
+NAKHLA RESIDENCE — V5 UPDATE: FEATURES WITHOUT COMPLEXITY
+========================================================
+
+المشروع الأساسي لم يتغيّر: 12 طابق (G+01–09+10 Wellness+11 Sky Dining)، 18 شقة تجريبية، نموذج 3D أصلي، 4 لغات، صوت مطفي أول فتح، حقوق رشيد ومعلومات التواصل.
+
+تغيير الواجهة: بدال قائمة مودات طويلة: أربع سكشنات رئيسية فقط:
+1. استكشف: البناية والطوابق والشقق + البحث الذكي والمقارنة والمحاكاة الضوئية والإطلالات.
+2. تجوّل: الغرف والتجوال التقليدي/السينمائي/الحر/استكشاف العقار كمحدد أسلوب داخلي + رحلة يوم بنخلة.
+3. صمّم: المواد والباكجات والصور والمقارنة وحفظ التصميم ومشاركته.
+4. المرافق: الطابق 10 للمسبح والجيم، والطابق 11 للكوفي والمطعم وتراس النراكيل المشروط.
+
+أدوات مهندس، قياس الغرف، تبديل أثاث، مساعد معلومات، White Label مو صفحات رئيسية؛ تظهر فقط وقت الحاجة وبمرحلة التنفيذ المناسبة ومرهونة باختبارات الأداء والدقة.
+
+P0: الأساس وواجهة السكشنات والتجوال والأصوات واللغات والأداء.
+P1: مطابقة الشقق/مقارنة، Sun & View توضيحي، رحلة يوم، عرض الشركات، الحفظ والمشاركة.
+P2: قياس وأثاث، X-Ray متقدم، تصميم مقترح محلي، مساعد معلومات، مشروع قابل للتخصيص لشركات أخرى. لا نشحن ميزة ثقيلة أو وهمية حتى لو مذكورة بالمتطلبات.
+
+تم الحفاظ على بيانات المبدع: Rashid Omar Mohammed / +9647700864990 / rashid.iq12@gmail.com.
+النسخة هذه مواصفات وبيانات أولية ومصفوفة اختبار، مو موقع مكتمل.
+فحوصات ZIP والبيانات لا تثبت سلاسة الموقع الحقيقي أو دقة الترجمة؛ تحتاج Claude Code ينفّذ ويجرّب.
+
+الملفات الجديدة:
+- specs/V5_INFORMATION_ARCHITECTURE_AND_REVEAL.md
+- specs/V5_SMART_PROPERTY_AND_DAYLIGHT.md
+- specs/V5_PERSONALIZATION_COMPARE_FURNISHING.md
+- specs/V5_PRESENTATION_SHARING_WHITE_LABEL.md
+- specs/V5_PERFORMANCE_ACCESSIBILITY_AND_INTEGRATION.md
+- qa/V5_RELEASE_GATES.md, qa/V5_SECTIONED_QA_CASES.csv
+- ops/V5_IMPLEMENTATION_AND_RELEASE_SEQUENCE.md
+- data/v5_sections.seed.json, data/v5_story_chapters.seed.json, data/v5_product_contract.seed.json
+- data/V5_NEW_TERMS_NEED_NATIVE_REVIEW.csv, data/V5_ROADMAP_AND_VISIBILITY.csv
+- scripts/VALIDATE_V5_PACKAGE.py

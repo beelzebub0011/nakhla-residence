@@ -1,0 +1,119 @@
+{
+  "notice": "All presets are synthetic scene appearance, not real-time measured weather, climate or a permitted solar analysis. Broad Basra region aesthetic only. No storm/lightning or snowfall by default.",
+  "default": {
+    "seasonId": "summer",
+    "weatherId": "clear",
+    "timeMinutes": 960,
+    "simulationOnly": true,
+    "soundEnabled": false
+  },
+  "seasons": [
+    {
+      "id": "spring",
+      "labelAr": "الربيع",
+      "labelEn": "Spring",
+      "artDirection": "warm fresh greenery and mild sunlight"
+    },
+    {
+      "id": "summer",
+      "labelAr": "الصيف",
+      "labelEn": "Summer",
+      "artDirection": "harsh sun, dry landscaping, hot bright light, no default snow"
+    },
+    {
+      "id": "autumn",
+      "labelAr": "الخريف",
+      "labelEn": "Autumn",
+      "artDirection": "muted landscape, gentler light"
+    },
+    {
+      "id": "winter",
+      "labelAr": "الشتاء",
+      "labelEn": "Winter",
+      "artDirection": "cooler gentle sun, seasonally plausible vegetation; no default snowfall"
+    }
+  ],
+  "weathers": [
+    {
+      "id": "clear",
+      "labelAr": "صحو",
+      "labelEn": "Clear",
+      "renderHint": "no particles"
+    },
+    {
+      "id": "partly_cloudy",
+      "labelAr": "غائم جزئياً",
+      "labelEn": "Partly Cloudy",
+      "renderHint": "reduced direct light"
+    },
+    {
+      "id": "overcast",
+      "labelAr": "غائم",
+      "labelEn": "Overcast",
+      "renderHint": "diffuse light"
+    },
+    {
+      "id": "light_rain",
+      "labelAr": "مطر خفيف",
+      "labelEn": "Light Rain",
+      "renderHint": "wet exterior, particles optional high tier"
+    },
+    {
+      "id": "dust",
+      "labelAr": "غبار خفيف",
+      "labelEn": "Dust/Haze",
+      "renderHint": "reduced distant clarity"
+    },
+    {
+      "id": "windy",
+      "labelAr": "رياح",
+      "labelEn": "Windy",
+      "renderHint": "subtle vegetation animation quality-dependent"
+    }
+  ],
+  "presets": [
+    {
+      "id": "dawn",
+      "labelEn": "Dawn",
+      "timeMinutes": 345,
+      "weatherId": "clear",
+      "seasonId": "summer"
+    },
+    {
+      "id": "morning",
+      "labelEn": "Morning",
+      "timeMinutes": 540,
+      "weatherId": "clear",
+      "seasonId": "summer"
+    },
+    {
+      "id": "noon",
+      "labelEn": "Noon",
+      "timeMinutes": 720,
+      "weatherId": "clear",
+      "seasonId": "summer"
+    },
+    {
+      "id": "golden_hour",
+      "labelEn": "Golden Hour",
+      "timeMinutes": 1050,
+      "weatherId": "clear",
+      "seasonId": "summer"
+    },
+    {
+      "id": "night",
+      "labelEn": "Night",
+      "timeMinutes": 1260,
+      "weatherId": "clear",
+      "seasonId": "summer"
+    }
+  ],
+  "invariants": [
+    "no weather or season control resets materials, floor, room, locale, camera or selected unit",
+    "rain outside only; interiors see only exterior rain through windows",
+    "on low tier disable particles but retain weather UI and cheap lighting state",
+    "no full environment variant model duplication",
+    "persist and validate in URL/saved state",
+    "2D Lite has matching labelled simulated state"
+  ]
+}

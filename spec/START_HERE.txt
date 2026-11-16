@@ -1,0 +1,121 @@
+# V8 HIGHEST PRIORITY — SIGNATURE CINEMATIC SMOOTHNESS & MOTION COMFORT (P0)
+
+VERSION ORDER: V8 > V7 > V6 > V5 > V4 > V3 > V2 > V1 when conflicting. Keep EVERY prior valid requirement and **all seven V7 engineering gates**. V8 adds **GATE 8: smooth, continuous, comfortable, interruptible motion**. The intended experience is the tranquil feeling of a premium architectural film with responsive interactions; NOT a slideshow, forced slow fade, video replacing a real interactive 3D scene, or a new public tab. Four sections stay EXACTLY Explore/Tour/Design/Amenities. Sound remains OFF by default. Four languages remain. No paid Higgsfield or other usage without approval.
+
+MANDATORY FIRST READS FOR CLAUDE CODE (do NOT ingest giant master prompt twice):
+1. START_HERE.txt (this V8 header, then earlier preserved instructions)
+2. specs/V8_SIGNATURE_SMOOTHNESS_AND_MOTION_SYSTEM.md
+3. qa/V8_MOTION_RELEASE_GATES.md and data/v8_motion_contract.seed.json
+4. data/V8_MOTION_STORYBOARD.csv and templates/V8_MOTION_DIRECTOR_ENGINEERING_REFERENCE.md
+5. Relevant V7 source-of-truth / performance / camera gates for CURRENT milestone
+6. Other prior docs as needed; MASTER_PROMPT_COMPLETE.txt selectively only as broad reference.
+
+FIRST IMPLEMENTATION MILESTONE: real interactive **tower orbit -> select floor -> select unit -> enter room -> swap material -> back**. Make each handoff feel silky and cinematic but immediately interruptible, retaining same exact geometry/material/floor data. One MotionDirector owns each animating property; camera has one owner, frame-time-independent damping, quaternions, safe spline paths, intelligent preloading and renderer resource disposal. Respond instantly to clicks, avoid shader-compilation hitches, cap camera delta on resume, prevent simultaneous animation engines fighting. 60Hz capable desktop and 30Hz low-device fallback are measurement targets, not guaranteed rates. Always profile real devices (frame-time p50/p95/p99/hitch) and respect Reduced Motion. No P0 passes without evidence.
+
+REQUIRED: execute python scripts/VALIDATE_V8_PACKAGE.py and previous static validators. 732 QA definitions (652 previous + 80 new) start NOT_RUN. All static tests only check files. Real website building, live browser interaction, measurable profiling and comfort testing are still necessary. Owner permission needed for publishing/spending. No user should need to choose between smoothness and correctness.
+
+--- PRESERVED V7 AND EARLIER INSTRUCTIONS FOLLOW ---
+
+
+# V7 HIGHEST PRIORITY — SEVEN TECHNICAL QUALITY GATES + OPTIONAL HIGGSFIELD CREATIVE PIPELINE
+
+VERSION PRIORITY: V7 > V6 > V5 > V4 > V3 > V2 > V1 where an actual contradiction exists. Every prior valid requirement stays in force. START WITH THE 4-SECTION EXPERIENCE, 12 LEVELS/18 DEMO APARTMENTS, 4 LOCALES, SOUND OFF ON EVERY FULL PAGE LOAD, CONTEXTUAL FACT-GROUNDED AI, FOUR NAV MODES AND ZERO UNAPPROVED SPENDING.
+
+V7 CORE MANDATE: (1) CAD/BIM-to-mesh source-of-truth and verifiable area/dimension ledger; (2) physically plausible PBR, controlled sun/light/white balance, 3D/renders parity; (3) progressive 3D asset streaming with budgeted devices, adaptive quality and no multi-scene mega-bundle; (4) comfortable/collision-safe camera and mobile tap-to-move; (5) WebGL context-loss/network recovery with 2D fallback, no lost state; (6) real automated visual-regression tests across devices and all FOUR languages; (7) privacy-respecting post-launch real user monitoring with consent. All 7 are release gates, not marketing promises.
+
+HIGGSFIELD: Verified 2026-11-11: official Higgsfield promotion announced a NEW-USER, TERMS-APPLY, 72-HOUR TRIAL around Claude Fable 5.2 for selected image/video/audio models via MCP. THIS IS NOT A FREE CLAUDE SUBSCRIPTION. Public Higgsfield announcements indicate the trial AUTO-RENEWS TO PAID ULTRA after 72 hours unless canceled; older Higgsfield MCP/CLI documentation says ALL MCP/CLI calls use credits. Promotional exception, account eligibility, Claude web vs Claude Code CLI support, trial cancellation, license and current metering MUST BE VERIFIED IN THE LOGGED-IN ACCOUNT BEFORE USE. NEVER start a trial, authorize billing, enter payment details, enable extra credits, submit a paid generation, or install globally without owner approval. Gracefully skip Higgsfield and finish the complete Blender/Three.js project for ZERO external provider budget if unavailable. Higgsfield is for marketing PREVIEWS/REFERENCE STILL IMAGES/SHORT CINEMATIC VIDEO, NOT authoritative 3D geometry, CAD, exact material matching, verified balcony views, area calculations or interactive free walk. Never synthesize imaginary views then call them real photographs. Commercial rights must be explicitly verified. No external API required for public visitors.
+
+READ IN ORDER WITHOUT DUPLICATING THE HUGE MASTER PROMPT:
+1. START_HERE.txt (this V7 preface + previous V6 guide)
+2. specs/V7_SEVEN_ENGINEERING_QUALITY_GATES.md and specs/V7_HIGGSFIELD_CREATIVE_WORKFLOW.md
+3. qa/V7_RELEASE_GATES.md and ops/V7_PROVIDER_SAFETY_AND_ACTIVATION.md
+4. data/v7_quality_contract.seed.json, data/v7_provider_policy.seed.json, data/v7_architecture_provenance.seed.json
+5. Existing V6 PROJECT_CHARTER/CLAUDE and specs required for the CURRENT MILESTONE only.
+Read MASTER_PROMPT_COMPLETE.txt selectively as a comprehensive reference; it includes the V7 chapter and V1–V6 contracts. Do NOT load the same content twice solely for verbosity.
+
+MANDATORY DELIVERABLES: working locally testable site; original editable .blend files; derived optimized GLB/KTX2 if supported; floor and room metadata verified against geometry; visual QA screenshots + baselines + reports; device/network/GPU measurements; 2D Lite fallback; creator attribution; proper README and deployment plan; real evidence with unexecuted items marked NOT_RUN, not green. Maintain PROGRESS_LOG.md and RESUME_HERE.md. No claim of 'no bugs' without test evidence. NEVER publish/send/contact people without owner permission.
+
+--- PRESERVED V6 CONTENT BELOW ---
+
+# V6 HIGHEST PRIORITY — NAKHLA AI: CONTEXTUAL REAL ESTATE FACTS AND GUIDED ACTIONS
+
+The user now REQUIRES a much more capable, always-accessible but nonintrusive AI PROPERTY EXPERT. V6 > V5 > V4 > V3 > V2 > V1 where a genuine conflict exists. Preserve all former requirements: EXACTLY FOUR global public sections (Explore, Tour, Design, Amenities), Arabic default + English + Sorani Kurdish + Simplified Chinese, sound ALWAYS muted on every hard page load, no paid services or public deployment without approval, speed and accessibility, 12 levels/18 demo units, 4 camera modes inside Tour, exact creator identity. Do NOT make the AI a fifth global section or force unsolicited pop-ups.
+
+V6 P0: Build a WORKING FREE-DEFAULT, LIGHTWEIGHT, SOURCE-GROUNDED contextual property question assistant, not a fake nonfunctional AI button. It answers factual questions about selected tower, floor, unit, room, surface/material, area, dimension WHEN MEASURED, finish variants, amenity locations, topology and comparisons using canonical validated app metadata, with source/provenance and clear illustrative/unknown labels. Demo Type A ~125 m² and Type B ~145 m² are CONCEPT APPROXIMATIONS, not certified or exact net floor areas. Existing room dimensions are NULL: NEVER invent any actual room size/measurement, price, brand, warranty, supplier, availability, view or certification. Measurements become answerable only after coherent original geometry, exact transforms, BIM/CAD/mesh audit and design-review records; until then say "not yet measured" and offer the plan. 'Which material am I looking at?' uses actual selected mesh/surface->catalog ID->current override, not a guess from the pixels. Avoid claiming a generative LLM is present when using a deterministic local search engine.
+
+USER EXPERIENCE: contextual floating "اسأل نخلة" / "Ask Nakhla" icon or Help-sheet on desktop/tablet/mobile, concise chips such as "شكد المساحة؟", "شنو هذي المادة؟", "ودّيني للمسبح", minimalist bottom sheet on phone. Never obscures controls or 3D center; one overlay maximum, keyboard/screen-reader access, close/minimize, cancel asynchronous answers; no forced login/voice/microphone. User can ask in the site's FOUR locales; Arabic Iraqi-style questions supported without crude literal-only matching; source truth stays language-independent. On answer action, highlight/zoom/show room/floor ONLY via typed, validated application actions, preserving user state; no raw instructions/eval. Never auto-buy/quote/book/submit or alter finish choices without confirmation. Sound remains OFF and AI chat is TEXT FIRST.
+
+ARCHITECTURE: cached local structured fact resolver + localized templates + optional free local fuzzy synonyms (no secrets/network). Real generative LLM, if desired, is a strictly OPTIONAL SERVER-SIDE enhancement OFF by default, requiring owner approval of cost, privacy, provider and deployment; never put tokens/API keys in browser. A deterministic factual assistant may be branded "المساعد العقاري الذكي"; disclose when it is a guided search rather than claiming human-like generative capabilities. No high-memory AI model is loaded on phones. Knowledge is sourced from state stores already used by React/Three/Blender, not a second contradictory database. One truth for layout areas, GLB geometry, material IDs, localization, prices and availability; every response includes fact status: VERIFIED / CONCEPT / UNKNOWN. Do not silently turn a concept into a verified property. No private user contact in prompts/analytics. Strict query safety, rate limits if remote, no injection into state/tool execution.
+
+MANDATORY V6 READS: `specs/V6_AI_PROPERTY_EXPERT.md`, `specs/V6_AI_GROUNDING_ENGINE_AND_ACTIONS.md`, `specs/V6_AI_CONTEXTUAL_UI_I18N_PRIVACY.md`, `qa/V6_AI_RELEASE_GATES.md`, `data/v6_ai_contract.seed.json`, `data/v6_ai_intents.seed.json`, `data/v6_ai_facts.seed.json`, and `research/V6_AI_SKILLS_AND_COST_PROTOCOL.md`. Run `python scripts/VALIDATE_V6_PACKAGE.py` and previous V1–V5 package validators. Source validators prove FILE CONSISTENCY only. All new QA cases start NOT_RUN until measured app tests. The factual property assistant is now P0; external LLM concierge remains disabled optional P2 and must not slow initial page load.
+
+
+# V5 LATEST OVERRIDE — ONE SIMPLE USER JOURNEY, MANY POWERFUL FEATURES BEHIND CONTEXTUAL SECTIONS
+
+The client has approved ALL V5 ideas as product requirements, but demands a **simple, calm, intuitive visitor experience** rather than a maze of modes. Treat V5 as authoritative where it refines navigation, roadmap and feature priority; all V1–V4 requirements remain in force (especially 12 occupied levels, original assets, 4 locales, audio ALWAYS OFF on every new page load, performance, ownership, honest concept disclaimer and zero-cost defaults). Precedence: V5 > V4 > V3 > V2 > V1 where conflicting; hard safety, truthfulness, accessibility and tested performance override optional flourishes.
+
+VISITOR-FACING MAIN NAVIGATION: EXACTLY FOUR PLAIN-LANGUAGE SECTIONS (translate all):
+1. استكشف / Explore — building, floor/unit selection, smart unit finder, two-unit compare, daylight and view contextual tools, optional X-Ray.
+2. تجوّل / Tour — chosen unit/room, contextual four-camera-style selector [cinematic, guided, free-walk, property explorer], one-day-in-life playback, room measurements/furniture placement when trustworthy.
+3. صمّم / Design — existing 3D materials and finish packages, coordinated look suggestions, before/after, save/share selections.
+4. المرافق / Amenities — F10 pool/gym/spa and F11 café/restaurant/separated optional shisha/terrace.
+
+Always-visible BUT LOW-CLUTTER utility: step-aware breadcrumb + accessible Back, creator-branded contact and 'My Apartment' summary CTA, language menu, SOUND OFF with explicit opt-in, Help; environment and advanced tools only in compact contextual sheet. Initial landing is not a fifth permanent tab. Never present the visitor with 10+ modes at once. Four pre-existing camera modes are a SINGLE subordinate selector inside Tour, not four more top-level pages. Extra 'Sun & View', 'Architect', 'Furnishing', 'Presentation', 'Smart Finder', and 'AI' are feature tools/panels, NOT globally visible modes. Keep 2D Lite available on EVERY flow and never downgrade away critical information.
+
+Mandatory new reads: `specs/V5_INFORMATION_ARCHITECTURE_AND_REVEAL.md`, `specs/V5_SMART_PROPERTY_AND_DAYLIGHT.md`, `specs/V5_PERSONALIZATION_COMPARE_FURNISHING.md`, `specs/V5_PRESENTATION_SHARING_WHITE_LABEL.md`, `specs/V5_PERFORMANCE_ACCESSIBILITY_AND_INTEGRATION.md`, `qa/V5_RELEASE_GATES.md`, and `data/v5_sections.seed.json`. Run `python scripts/VALIDATE_V5_PACKAGE.py` alongside the pre-existing validators. New datasets are illustrative demos only. Record an evidence-backed completion state for each new feature; research and implement intelligently, never claim unbuilt or untested capabilities.
+
+SHIP TIERING: P0 = original V4 app + simple four-section navigation and critical safeguards; P1 = high-value wow capabilities once P0 is verified; P2 = advanced enhancements only if measurable performance and QA gates hold, otherwise complete as documented non-shipping roadmap/feature-flagged prototype, not fake controls. The scope is broad; prioritize one trustworthy polished vertical slice over shallow fake implementations. No public deployment, paid AI API or real-estate company contact without explicit approval.
+
+# V4 HIGHEST PRIORITY: QUIET BY DEFAULT + FOUR FULLY LOCALIZED LANGUAGES
+
+This V4 specification OVERRIDES any earlier bilingual, locale or sound defaults anywhere in V1–V3. Required locales: **Arabic ar-IQ DEFAULT RTL**, **English en LTR**, **Central Kurdish Sorani ckb-IQ RTL**, **Simplified Chinese zh-Hans LTR**. Do not silently replace Sorani with Kurmanji or Chinese Simplified with Traditional. No language should be a partial demo of an otherwise fully functional website; navigation, 3D hotspot labels, tooltips, amenities, material specifications, status notices, confirmation/error/loading states, footer, creator contact, gallery metadata, PDF exports, tour captions, and accessibility text must all be localized. Preserve IDs, camera and finish selection when switching.
+
+EVERY PAGE LOAD or document reload MUST START WITH **ALL SOUND DISABLED/MUTED**. No autoplay, no jingles, no footsteps, no sky/ambient noises, no narration, no video audio and no Web Audio playing or fetching heavy audio assets. Unmute only from an explicit user-initiated audio control, never inferred from 'Start Tour' alone. Users can mute/disable audio instantly and at any point, including cinematic, free-walk and the welcome screen. Changing page, floor, room, weather, language, scene or tour mode MUST NOT unmute; a new page load MUST revert to muted even if audio was opted into during the previous visit. Sound is optional decoration and must not gate or slow navigation.
+
+Localization quality is a SHIP BLOCKER: no missing keys, machine translation presented as verified, mistranslated safety notices, incorrect direction, broken Arabic/Sorani glyphs, untested PDF/JSON interpolation or misrepresented demo-status translations. Claude must research official language/typographic standards, develop canonical terminology, perform automated checks and arrange/record competent native-speaker review for all four locales before declaring production-grade translation accuracy. If native validation is unavailable, mark those locales **UNVERIFIED / REVIEW NEEDED**, provide working draft UI for demos, and DO NOT claim zero translation errors or final linguistic sign-off. Do not delay technical work waiting for approvals; continue implementation and report gate truthfully.
+
+Required reads before implementation: `specs/V4_AUDIO_QUIET_BY_DEFAULT.md`, `specs/V4_FOUR_LANGUAGE_LOCALIZATION_AND_TRANSLATION_QA.md`, `qa/V4_AUDIO_I18N_RELEASE_GATES.md`, and new `data/locales_manifest.seed.json`, `data/audio_preferences.seed.json`, `data/translation_review_status.seed.json`. Run `python scripts/VALIDATE_V4_PACKAGE.py` in addition to earlier offline checks. These validate PACKAGE FIXTURES ONLY, not the built website. In case of conflict, V4 > V3 > V2 > V1. Do not send or publish the attached Instagram reel or screenshots. Do not auto-deploy a public website.
+
+V3 FINAL PRIORITY UPDATE — MUST READ BEFORE DEVELOPMENT
+Read `specs/V3_PRIORITY_OVERRIDES_AND_FIXES.md`, `specs/VISUAL_DIRECTION_AND_DESIGN_SYSTEM_V3.md`, `specs/EXPLORATION_CAMERA_MODES_V3.md`, `specs/PRODUCT_UI_BEHAVIOR_AND_MICROINTERACTIONS_V3.md`, `specs/CREATOR_OWNERSHIP_CONTACT_BRANDING_V3.md`, and `qa/V3_VISUAL_UX_NAVIGATION_RELEASE_GATES.md` at the relevant stages. New exact public creator contact: Rashid Omar Mohammed / +9647700864990 / rashid.iq12@gmail.com. Four distinct actual modes (Cinematic, Guided, Free Walk, Property Explorer) plus functioning 2D Lite. Visual craft is a first-class release gate but NEVER above usability, reliability, accessibility and performance. V3 overrides conflicts with old ten-floor/double-height lobby/unclear gallery statements. Do not present project as real listing or assume all previously listed features already exist. This package is the specification for Claude to implement and test.
+
+
+CRITICAL UPDATE v2.0 — IMMEDIATELY AFTER reading project charter / phase outline, treat these new contracts as must-read before writing software architecture: `specs/PERFORMANCE_NO_LAG_CONTRACT.md`, `specs/RESPONSIVE_INPUT_ACCESSIBILITY_CONTRACT.md`, `specs/ENVIRONMENT_TIME_WEATHER_SEASONS.md`, `specs/FREE_WALK_CAMERA_AND_WAYFINDING.md`, `qa/PERFORMANCE_E2E_ACCEPTANCE.md`. New requirement: smoothly opening link on tested desktop/tablet/phone, efficient 3D under unstable Iraqi/mobile network, controls for hour/weather/season, true walkable modeled areas with collision and mobile guided alternative. The V2 priority addendum PREVAILS over old day/night-only clauses. No claim zero bugs without actual release evidence.
+
+
+NAKHLA RESIDENCE — ZERO-FRICTION CLAUDE CODE HANDOFF
+===================================================
+THIS IS AN EXECUTION ORDER, NOT A REQUEST FOR ANOTHER PLAN.
+
+CLAUDE: If the complete extracted ZIP project folder is available, DO NOT consume context by reading MASTER_PROMPT_COMPLETE.txt and every separate spec file together: they deliberately duplicate content. Instead read CLAUDE.md, PROJECT_CHARTER.md, master/EXECUTION_PHASES_ONLY.txt and the CURRENT-PHASE relevant files. Read remaining specs incrementally as each phase needs them. Read MASTER_PROMPT_COMPLETE.txt ONLY if it is the single standalone file available (without the complete ZIP). If the ZIP itself is attached and you can extract it, extract into a dedicated writable project folder first. Do not require the human to transcribe specs, manually draw plans, select libraries, fetch models or supervise ordinary implementation tasks.
+
+USER: To use with Claude Code, place this ZIP inside an empty project folder and have Claude read this START_HERE.txt. If your Claude interface can accept ZIP attachments, attach the ZIP and say: "Read START_HERE.txt inside this package and execute the complete project." The user should never need to paste many prompts individually. Note: Claude must have filesystem, internet, coding and optionally Blender/browser privileges to actually build and test a website; a basic chat-only Claude cannot independently operate the computer.
+
+ONE-LINE INVOCATION FOR CLAUDE:
+"Read START_HERE.txt, follow its context-efficient order and execute the entire Nakhla Residence project with original 3D assets, working site, suitable vetted skills, browser tests and real verified deliverables. Do not stop at planning."
+
+PRIMARY REQUIREMENT: functioning original 12-level luxury Basra-inspired tower website, not mockups, video, empty template, or presentation.
+COUNTING: G + floors 01–09 residential + floor 10 wellness/pool/gym + floor 11 rooftop restaurant/café/shisha terrace = 12 occupied levels. Roof plant/service zone is NOT an extra occupied floor. Basement optional following validation.
+STATUS: concept only, not approved structural/MEP plans and not an actual available-to-buy building.
+BUDGET: zero incremental paid tools/API/assets by default. Do not purchase, create billable resources, or contact businesses without user confirmation.
+SAFETY: install reviewed, pinned, licensed tools in project-scoped environment; do not run arbitrary code from skills without review; never auto-approve payments, OS privilege escalation, external uploads or destructive operations.
+
+READ ORDER:
+ZIP READ ORDER — optimized for limited model usage:
+1. CLAUDE.md, PROJECT_CHARTER.md and master/EXECUTION_PHASES_ONLY.txt
+2. Current-phase specs only: specs/* (read as needed)
+3. Current-phase research files: research/RESEARCH_AND_SKILL_PROTOCOL.md, research/OFFICIAL_REFERENCES.md
+4. Relevant data/*.json, qa/* and templates/* as implementing features
+5. references/reel_reference.mp4 and references/frames/* (visual inspiration only)
+6. scripts/VALIDATE_PACKAGE.py (checks fixtures, not product completion)
+7. Do not reread master as well; only use it if the ZIP files are unavailable.
+
+Persist progress and restart state in project_artifacts/PROGRESS_LOG.md and project_artifacts/DECISION_LOG.md; never overwrite the source specification. For any ambiguity, choose the option that best supports safety, visual quality, usability, performance, honesty and zero-cost execution. Perform research and document evidence instead of assuming.
+
+
+V3 EXTRA MUST-READ (READ ONCE): In addition to V2 performance docs, read `specs/V3_PRIORITY_OVERRIDES_AND_FIXES.md`, `specs/VISUAL_DIRECTION_AND_DESIGN_SYSTEM_V3.md`, `specs/EXPLORATION_CAMERA_MODES_V3.md`, `specs/PRODUCT_UI_BEHAVIOR_AND_MICROINTERACTIONS_V3.md`, `specs/CREATOR_OWNERSHIP_CONTACT_BRANDING_V3.md` before implementing UI; read `specs/SIGNATURE_CREATIVE_EXPERIENCES_V3.md` at creative feature phase, and `qa/V3_VISUAL_UX_NAVIGATION_RELEASE_GATES.md` for final release. Keep modules context-efficient. Do not stop at describing the UI; build it and test real rendered browser state. Do not auto-deploy to public hosting without consent.
+V3 INVOCATION: Read START_HERE.txt. Implement all project phases and the V3 visual-design/multi-mode/ownership requirements autonomously. Build and test the actual application, using vetted relevant skills and project-scoped dependencies. Preserve progress and report honest test evidence.
+
+PRE-IMPLEMENTATION VALIDATION: Run `python scripts/VALIDATE_PACKAGE.py` and `python scripts/VALIDATE_V3_PACKAGE.py` with project-scoped Python. These only check this handoff package; DO NOT mark actual website tests passed on this basis.
+
+V4 OFFLINE FIXTURE CHECK: `python scripts/VALIDATE_V4_PACKAGE.py` (run all V1-V4 package checks). This validates source only; implement features and test browser.

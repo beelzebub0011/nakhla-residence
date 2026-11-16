@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 4,
+  "disclaimer": "Translations are authoring drafts, NOT certified or independently native-reviewed. Do NOT mark APPROVED without evidence.",
+  "draftSource": "Assistant-proposed text; Claude must research and commission/obtain competent human proofing when available.",
+  "localeStatus": {
+    "ar": {
+      "status": "DRAFT_UNVERIFIED",
+      "nativeReviewer": null,
+      "reviewDate": null,
+      "reviewEvidencePath": null,
+      "approvedContentHash": null,
+      "highRiskSecondReview": false
+    },
+    "en": {
+      "status": "DRAFT_UNVERIFIED",
+      "nativeReviewer": null,
+      "reviewDate": null,
+      "reviewEvidencePath": null,
+      "approvedContentHash": null,
+      "highRiskSecondReview": false
+    },
+    "ckb": {
+      "status": "DRAFT_UNVERIFIED",
+      "nativeReviewer": null,
+      "reviewDate": null,
+      "reviewEvidencePath": null,
+      "approvedContentHash": null,
+      "highRiskSecondReview": false
+    },
+    "zh": {
+      "status": "DRAFT_UNVERIFIED",
+      "nativeReviewer": null,
+      "reviewDate": null,
+      "reviewEvidencePath": null,
+      "approvedContentHash": null,
+      "highRiskSecondReview": false
+    }
+  },
+  "mustReview": [
+    "All 4 locale dictionaries",
+    "Every new dynamic and CMS field",
+    "On-screen tooltips and error copy",
+    "3D labels and content",
+    "Creator contact notices and terms",
+    "Material composition/specification accuracy",
+    "PDF exports, screenshots and SEO",
+    "Screen-reader aria copy",
+    "Shisha/amenity and safety disclaimers"
+  ],
+  "productionReleaseRule": "No production linguistic signoff before documented native-speaker review, contextual screenshots and risky-copy second review. Mark blockers accurately."
+}
